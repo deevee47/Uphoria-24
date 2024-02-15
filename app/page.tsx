@@ -1,12 +1,14 @@
 import LandingPage from "@/components/main/LandingPage";
-import Image from "next/image";
+import Timeline from "@/components/main/Timeline";
 
 
 export default function Home() {
   return (
   <main className="h-full w-full">
-    <div className="flex justify-center items-center w-full h-screen">
+    <div className="flex flex-col justify-center items-center">
         <LandingPage />
+        <Timeline />
     </div>
   </main>);
 }
+

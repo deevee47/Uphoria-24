@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,4 +7,47 @@
 
 .UphoriaText{
     font-family: "Alegreya";
+}
+
+.EventHeading{
+    font-family: "Cinzel Decorative";
+    font-weight: 400;
+    color: #FFAD0E;
+
+    /* Glowing Text not coming */
+    text-shadow: 0px 4px 20px 0px #F58220;
+}
+
+.EventTime{
+    font-family: 'Cinzel';
+    font-weight: 400;
+    color: #F2B3CE;
+}
+
+.EventName{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    background: linear-gradient(180deg, #FFAD0E 0%, #F58220 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.eventdate{
+    font-family: 'Cinzel';
+    font-weight: 400;
+    color: transparent;
+    background: linear-gradient(180deg, #FFAD0E 32.63%, #F58220 103.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Text border chahiye */
+    border: 2px solid #FFAD0E; 
+
+}
+
+.eventmonth{
+    font-family: "Cinzel";
+    font-weight: 700;
+    color: #FFAD0E;
+
 }
