@@ -11,7 +11,7 @@ const LandingPageContent = () => {
             <motion.div 
              variants={slideInFromTop}
              className='UphoriaBox pt-[24vw]'>
-                <Image src="Uphoria.svg" alt="Example SVG" width={600} height={100}/>
+              <Image className="UphoriaLogo" src="Uphoria.svg" alt="Example SVG" width={600} height={100}/>
             </motion.div>
             
              <motion.div
