@@ -8,27 +8,20 @@
 .UphoriaText{
     font-family: "Times New Roman";
     /* text-shadow: 0px 4px 9px #FFFFFF66; */
-    font-weight: 400;
 
 }
 
 .UphoriaText span {
     font-family: "Cinzel Decorative";
-    font-weight: 400;
-    color: #FFAD0E;
     text-shadow: 0px 3px 10px #F58220;
     text-shadow: 0px 6px 20px 0px #FFAD0E;
     text-shadow: 0px 4px 6px 0px #000000;
 }
 
-.dates{
-    color: transparent;
-}
 
 .EventHeader{
     font-family: "Cinzel Decorative";
     text-transform: uppercase;
-    color: #FFAD0E;
     text-shadow: 0px 4px 20px #F58220;
 }
 
@@ -48,8 +41,6 @@
 
 .TimelineHeading{
     font-family: "Cinzel Decorative";
-    font-weight: 400;
-    color: #FFAD0E;
 
     /* Glowing Text */
     text-shadow: 0px 4px 20px #F58220;
@@ -57,13 +48,10 @@
 
 .EventTime{
     font-family: 'Cinzel';
-    font-weight: 400;
-    color: #F6DFAD;
 }
 
 .EventName{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
     background: linear-gradient(180deg, #FFAD0E 0%, #F58220 100%);
     color: transparent;
     background-clip: text;
@@ -73,7 +61,6 @@
 
 .eventdate{
     font-family: 'Cinzel';
-    font-weight: 400;
     color: transparent;
     background: linear-gradient(180deg, #FFAD0E 32.63%, #F58220 103.39%);
     background-clip: text;
@@ -87,9 +74,6 @@
 
 .eventmonth{
     font-family: "Cinzel";
-    font-weight: 700;
-    color: #FFAD0E;
-
 }
 
 
@@ -105,12 +89,10 @@
 
 .contact-us-mails{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
 }
+
 .FAQHeading{
     font-family: "Cinzel";
-    font-weight: 400;
-    color: #FFAD0E;
 
     /* Glowing Text */
     text-shadow: 0px 4px 20px #F58220;
