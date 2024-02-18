@@ -8,7 +8,7 @@ const FAQContent = () => {
   return (
         <motion.div initial= "hidden" animate= "visible" className='h-full w-full flex flex-col items-center md:justify-center'>
 
-            <div className='FAQHeading text-[3vw]'>
+            <div className='FAQHeading text-[3vw] w-full text-center'>
                 FREQUENTLY ASKED QUESTIONS
             </div>
         </motion.div>

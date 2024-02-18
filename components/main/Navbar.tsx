@@ -8,7 +8,7 @@ const Navbar = () => {
       <motion.div initial= "hidden" animate= "visible" className=" absolute w-full flex flex-row items-center justify-center mt-[6vh]">
         <motion.div variants={slideInFromTop} className="w-[600px] h-full flex flex-row items-center justify-between md:mr-22">
           <div className="flex items-center justify-between w-full shadow-[#FFAD0E]/50 h-auto border border-[#FFAD0E] mr-[18px] px-[23px] py-[13px] rounded-full text-[#FFAD0E] bg-[#0000003b]">
-            <a href="#about-me" className="cursor-pointer">
+            <a href="#events" className="cursor-pointer">
               Events
             </a>
             <a className="dot">&#x2022;</a>

@@ -21,8 +21,7 @@ const LandingPageContent = () => {
             </motion.div> 
 
             <motion.div>
-              {/* Need to fix glow */}
-              <Image className="dates pt-[10vw] pb-[10vw]" src="/dates.png" alt="Example SVG" width={1400} height={700}/>
+              <Image className="dates pt-[12vw] pb-[10vw]" src="/dates.png" alt="Example SVG" width={1400} height={700}/>
             </motion.div> 
         </motion.div>
   )

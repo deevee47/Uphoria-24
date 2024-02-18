@@ -79,7 +79,7 @@ const TimelineContent: React.FC = () => {
 
   return (
     <>
-        <div className='EventHeading text-[8vw]'>
+        <div className='TimelineHeading text-[8vw] w-full text-center'>
             Timeline
         </div>
         {events15.map((event, index) => (

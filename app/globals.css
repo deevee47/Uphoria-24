@@ -25,8 +25,9 @@
     color: transparent;
 }
 
-.EventsHeading{
+.EventHeader{
     font-family: "Cinzel Decorative";
+    text-transform: uppercase;
     color: #FFAD0E;
     text-shadow: 0px 4px 20px #F58220;
 }
@@ -45,7 +46,7 @@
 
 
 
-.EventHeading{
+.TimelineHeading{
     font-family: "Cinzel Decorative";
     font-weight: 400;
     color: #FFAD0E;
