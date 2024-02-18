@@ -93,6 +93,20 @@
 }
 
 
+
+.contact-us-header{
+    font-family: "Cinzel";
+    text-shadow: 0px 6px 10px #FFAD0E80;
+}
+
+.contact-us-text{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-us-mails{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
 .FAQHeading{
     font-family: "Cinzel";
     font-weight: 400;
