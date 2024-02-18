@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ backgroundImage: `url('/background.svg')` }} className={`${inter.className} overflow-y-scroll overflow-x-hidden bg-cover bg-no-repeat object-cover bg-black`}>
+      <body style={{ backgroundImage: `url('/background.svg')` }} className={`${inter.className} overflow-y-scroll overflow-x-hidden bg-cover bg-no-repeat object-cover bg-[#231F1E]`}>
          
          <Navbar />
          {children}
