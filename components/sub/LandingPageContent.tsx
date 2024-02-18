@@ -16,8 +16,8 @@ const LandingPageContent = () => {
             
              <motion.div
               variants={slideInFromLeft(0.5)}
-              className="UphoriaText text-[#FFAD0E] pt-[34vw] text-[2.4vw] w-[70%] text-center ">
-            Lorem Ipsum and etc etc content to be given whenever its provided issokay
+              className="UphoriaText text-[#FFAD0E] pt-[34vw] text-[2vw] w-[70%] text-center ">
+            Bennett University's annual cultural fest, takes a vibrant turn this year with the theme <span>Band Baaja Baraat</span>, celebrating the joyous energy and colorful traditions of Indian weddings. This brand kit captures the essence of the theme through a lively visual identity.
             </motion.div> 
         </motion.div>
   )
