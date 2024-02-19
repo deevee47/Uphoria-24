@@ -6,9 +6,9 @@ import { slideInFromLeft } from '@/utils/motion'
 
 const LandingPageWheel = () => {
   return (
-    <motion.div initial= "hidden" animate= "visible"className="absolute h-full w-full top-[1%] rotate-270">
+    <motion.div initial= "hidden" animate= "visible"className="absolute top-[1%] left-[0%] rotate-270">
         <motion.div variants={slideInFromLeft(0.5)}>
-        <Image src="ColoredWheel.svg" alt="Colored Wheel SVG" width={430} height={60}/>
+        <Image src="ColoredWheel.svg" alt="Colored Wheel SVG" width={430} height={60} />
         </motion.div>
     </motion.div>
   )
