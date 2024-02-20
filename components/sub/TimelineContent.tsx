@@ -10,7 +10,7 @@ interface EventItemProps {
 
 const EventItem: React.FC<EventItemProps> = ({ time, eventName }) => {
   return (
-    <div className='h-full w-full flex gap-20 items-center md:justify-center'>
+    <div className='h-full w-full flex gap-20 items-center justify-center'>
       <motion.div variants={slideInFromLeft(0.5)} className='EventTime font-normal text-[#F6DFAD] text-[2vw]'>
         {time}
       </motion.div>
