@@ -14,7 +14,7 @@ const EventItem: React.FC<EventItemProps> = ({ time, eventName }) => {
       <motion.div variants={slideInFromLeft(0.5)} className='EventTime font-normal text-[#F6DFAD] text-[2vw]'>
         {time}
       </motion.div>
-      <motion.div variants={slideInFromRight(0.5)} className='EventName font-normal text-[2.7vw]'>
+      <motion.div variants={slideInFromRight(0.5)} className='EventName font-normal sm:text-[2.7vw]'>
         {eventName}
       </motion.div>
     </div>
@@ -79,7 +79,7 @@ const TimelineContent: React.FC = () => {
 
   return (
     <>
-        <div className='TimelineHeading font-normal text-[#FFAD0E] text-[8vw] w-full text-center'>
+        <div className='TimelineHeading font-normal text-[#FFAD0E] sm:text-[8vw] text-[10vw] w-full text-center sm:pb-[5vw] pb-[10vw]'>
             Timeline
         </div>
         {events15.map((event, index) => (
