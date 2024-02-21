@@ -15,6 +15,7 @@ const LandingPageContent = () => {
               <Image className="UphoriaLogo m-auto" src="Uphoria.svg" alt="Example SVG" width={750} height={200}/>
             </motion.div>
              <motion.div
+              id="about"
               variants={slideInFromLeft(0.5)}
               className="UphoriaText font-normal text-[#F6DFAD] pt-[35vw] text-[4vw] sm:text-[2.2vw] w-[85%] sm:w-[70%] text-center m-auto">
             Bennett University&apos;s annual cultural fest, takes a vibrant turn this year with the theme <span className='text-[#FFAD0E] font-normal'>Band Baaja Baraat</span>, celebrating the joyous energy and colorful traditions of Indian weddings. This brand kit captures the essence of the theme through a lively visual identity.
