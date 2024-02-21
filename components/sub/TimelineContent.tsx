@@ -97,7 +97,7 @@ const TimelineContent: React.FC = () => {
           {events16.map((event, index) => (
             <EventItem key={index} time={event.time} eventName={event.eventName} />
       ))}
-          <div className='flex flex-col  absolute mt-[90vw] top-[16%] left-[10%] sm:top-[0%] sm:left-[10%]'>
+          <div className='flex flex-col  absolute mt-[90vw] top-[16%] left-[10%] sm:top-[10%] sm:left-[10%]'>
             <div className='eventdate text-[16vw] sm:text-[15vw] font-normal'>16</div>
             <div className='eventmonth text-[3.5vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>
@@ -106,7 +106,7 @@ const TimelineContent: React.FC = () => {
         {events17.map((event, index) => (
         <EventItem key={index} time={event.time} eventName={event.eventName} />
       ))}
-          <div className='flex flex-col absolute mt-[160vw] top-[26%] left-[10%] sm:top-[0%] sm:left-[10%]'>
+          <div className='flex flex-col absolute mt-[160vw] top-[26%] left-[10%] sm:top-[10%] sm:left-[10%]'>
             <div className='eventdate text-[16vw] sm:text-[15vw] font-normal'>17</div>
             <div className='eventmonth text-[3.5vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>    
