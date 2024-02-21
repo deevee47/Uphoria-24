@@ -6,8 +6,8 @@ import { slideInFromTop } from '@/utils/motion'
 const Navbar = () => {
   return (
       <motion.div initial= "hidden" animate= "visible" className=" hidden sm:flex z-10 absolute w-full flex-row items-center justify-center mt-[6vh]">
-        <motion.div variants={slideInFromTop} className="sm:w-[50%] h-full flex flex-row items-center justify-between md:mr-22">
-          <div className="flex items-center justify-between w-full shadow-[#FFAD0E]/50 h-auto border border-[#FFAD0E] mr-[18px] px-[23px] py-[13px] rounded-full text-[#FFAD0E] bg-[#0000003b]">
+        <motion.div variants={slideInFromTop} className="fixed sm:w-[40%] h-full flex flex-row items-center justify-between md:mr-22">
+          <div className=" flex items-center justify-between w-full shadow-[#FFAD0E]/50 h-auto border border-[#FFAD0E] mr-[18px] px-[23px] py-[13px] rounded-full text-[#FFAD0E] bg-[#00000071]">
             <a href="#events" className="cursor-pointer hover:drop-shadow-[0_0_3px_#FDC951]">
               Events
             </a>
