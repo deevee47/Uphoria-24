@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
+import AnimatedTooltipPreview from '../sub/tooltip'
 
 const FooterContent = () => {
   return (
     <footer className='w-full h-full relative justify-center flex'>
     <Image className=" absolute -top-[50%] left-[80%]" src="fullGoldMandala.svg" alt="Golden Mandala" width={350} height={60} />
     <div className='glass-footer flex flex-col justify-between gap-20  h-full w-[98%] bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border border-[#FFAD0E]'>
-        <div className="upperfooter flex justify-between p-[1.5vw] text-[1vw]">
-            <div className='text-[#F6DFAD]'>Made with ❤️ from Uphoria's Tech Team </div>
+        <div className="upperfooter flex justify-between p-[1.5vw] text-[1.1vw] w-fit">
+            <div className='text-[#F6DFAD]'>Made with ❤️ from Uphoria's Tech Team <AnimatedTooltipPreview /> </div>
         </div>
         <div className="lowerfooter flex justify-between p-[1.5vw] text-[1vw]">
             <div className='text-[#F6DFAD] text-[1.5vw] p-1 '>
