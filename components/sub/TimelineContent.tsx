@@ -79,13 +79,13 @@ const TimelineContent: React.FC = () => {
 
   return (
     <>
-        <div className='TimelineHeading font-normal text-[#FFAD0E] sm:text-[8vw] text-[10vw] w-full text-center sm:pb-[5vw] pb-[10vw]'>
+        <div id ="timeline" className='TimelineHeading font-normal text-[#FFAD0E] sm:text-[8vw] text-[10vw] w-full text-center sm:pb-[5vw] pb-[10vw]'>
             Timeline
         </div>
         {events15.map((event, index) => (
             <EventItem key={index} time={event.time} eventName={event.eventName} />
         ))}
-            <div className="goldenmandala absolute -top-[45%] rotate-180 left-[0%] w-[30%] h-full flex justify-end">
+            <div className="goldenmandala absolute -top-[45%] rotate-180 left-[0%] w-[30%] sm:w-[20%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} />
             </div>
           <div className='flex flex-col absolute mt-[30vw] top-[6%] left-[10%] sm:top-[0%] sm:left-[10%]'>
@@ -100,7 +100,7 @@ const TimelineContent: React.FC = () => {
           {events16.map((event, index) => (
             <EventItem key={index} time={event.time} eventName={event.eventName} />
       ))}
-            <div className="goldenmandala absolute -top-[5%] left-[70%] w-[30%] h-full flex justify-end">
+            <div className="goldenmandala absolute -top-[5%] left-[80%] w-[30%] sm:w-[20%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} />
             </div>
           <div className='flex flex-col  absolute mt-[90vw] top-[16%] left-[10%] sm:top-[10%] sm:left-[10%]'>
