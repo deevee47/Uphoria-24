@@ -10,11 +10,11 @@ interface EventItemProps {
 
 const EventItem: React.FC<EventItemProps> = ({ time, eventName }) => {
   return (
-    <div className='h-full w-full flex gap-20 items-center justify-center'>
-      <motion.div variants={slideInFromLeft(0.5)} className='EventTime font-normal text-[#F6DFAD] text-[2vw]'>
+    <div className='h-full w-full flex gap-10 sm:gap-20 items-center justify-center'>
+      <motion.div variants={slideInFromLeft(0.5)} className='EventTime font-normal text-[#F6DFAD] text-[2.5vw]'>
         {time}
       </motion.div>
-      <motion.div variants={slideInFromRight(0.5)} className='EventName font-normal sm:text-[2.7vw]'>
+      <motion.div variants={slideInFromRight(0.5)} className='EventName font-normal sm:text-[3.5vw]'>
         {eventName}
       </motion.div>
     </div>
@@ -85,9 +85,9 @@ const TimelineContent: React.FC = () => {
         {events15.map((event, index) => (
             <EventItem key={index} time={event.time} eventName={event.eventName} />
         ))}
-          <div className='flex flex-col absolute mt-[30vw]  top-[0%] left-[10%]'>
-            <div className='eventdate text-[15vw] font-normal'>15</div>
-            <div className='eventmonth text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
+          <div className='flex flex-col absolute mt-[30vw] top-[6%] left-[10%] sm:top-[0%] sm:left-[10%]'>
+            <div className='eventdate text-[16vw] sm:text-[15vw] font-normal'>15</div>
+            <div className='eventmonth text-[3.5vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>
           <Image src="Line.svg" alt="Line SVG" width={850} height={60} className='py-[2vw]'/>
 
@@ -97,18 +97,18 @@ const TimelineContent: React.FC = () => {
           {events16.map((event, index) => (
             <EventItem key={index} time={event.time} eventName={event.eventName} />
       ))}
-          <div className='flex flex-col absolute mt-[90vw]  top-[0%] left-[10%]'>
-            <div className='eventdate text-[15vw] font-normal'>16</div>
-            <div className='eventmonth text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
+          <div className='flex flex-col  absolute mt-[90vw] top-[16%] left-[10%] sm:top-[0%] sm:left-[10%]'>
+            <div className='eventdate text-[16vw] sm:text-[15vw] font-normal'>16</div>
+            <div className='eventmonth text-[3.5vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>
           <Image src="Line.svg" alt="Line SVG" width={850} height={60} className='py-[2vw]'/>
 
         {events17.map((event, index) => (
         <EventItem key={index} time={event.time} eventName={event.eventName} />
       ))}
-          <div className='flex flex-col absolute mt-[160vw]  top-[0%] left-[10%]'>
-            <div className='eventdate text-[15vw] font-normal'>17</div>
-            <div className='eventmonth text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
+          <div className='flex flex-col absolute mt-[160vw] top-[26%] left-[10%] sm:top-[0%] sm:left-[10%]'>
+            <div className='eventdate text-[16vw] sm:text-[15vw] font-normal'>17</div>
+            <div className='eventmonth text-[3.5vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>    
     </>
 
