@@ -1,3 +1,4 @@
+        /* eslint-disable */
 import Image from 'next/image'
 import React from 'react'
 import AnimatedTooltipPreview from '../sub/tooltip'
@@ -8,10 +9,9 @@ const FooterContent = () => {
     <Image className="animate-pulse absolute  w-[60%] sm:w-[30%] -top-[40%] left-[45%] sm:-top-[55%] sm:left-[70%]" src="fullGoldMandala.svg" alt="Golden Mandala" width={350} height={60} />
     <div className='glass-footer flex flex-col justify-between gap-10 h-full w-[98%] bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border border-[#FFAD0E]'>
         <div className="upperfooter flex justify-between p-[1.5vw] text-[2.7vw] sm:text-[1.1vw] w-fit">
-        /* eslint-disable */
             <div className='text-[#F6DFAD]'>Made with ❤️ from Uphoria&apos;s Tech Team <AnimatedTooltipPreview /> </div>
         </div>
-        /* eslint-enable */
+
         <div className="lowerfooter flex justify-between p-[1.5vw] text-[1vw]">
             <div className='text-[#F6DFAD] text-[4vw] sm:text-[1.5vw] p-1 '>
                 <div className='pb-2'>Follow us</div>
@@ -33,5 +33,5 @@ const FooterContent = () => {
     </footer>
   )
 }
-
+        /* eslint-enable */
 export default FooterContent
