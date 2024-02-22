@@ -21,7 +21,7 @@ const FAQContent = () => {
             </div>
             <div id="faqs" className='FAQHeading text-[5.8vw] sm:text-[4vw] text-[#FFAD0E] font-normal w-full text-center'>
                 FREQUENTLY ASKED QUESTIONS
-                <div className='faq-accordion w-[75%] sm:w-[50%] m-auto text-[3vw] sm:text-[1.5vw] text-left py-[10vw]'>
+                <div className='faq-accordion w-[70%] sm:w-[50%] m-auto text-[3vw] sm:text-[1.5vw] text-left py-[10vw]'>
                     <Accordion type="single" collapsible className="w-full">
                         <AccordionItem value="item-1">
                             <AccordionTrigger>Will the university be providing us accommodations?</AccordionTrigger>
