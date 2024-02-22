@@ -32,7 +32,7 @@ const FAQContent = () => {
                         <AccordionItem value="item-2">
                             <AccordionTrigger>Can I participate in multiple events?</AccordionTrigger>
                             <AccordionContent>
-                            Yes! It is completely alright for you to participate in any number of events you&apos;d like to, as long as their timelines don't crash. Be sure to get registered ASAP!
+                            Yes! It is completely alright for you to participate in any number of events you&apos;d like to, as long as their timelines don&apos;t crash. Be sure to get registered ASAP!
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
