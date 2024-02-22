@@ -23,7 +23,7 @@ const LandingPageContent = () => {
             </motion.div> 
 
             <motion.div>
-              <Image className="dates pt-[12vw] pb-[10vw] w-[90%] sm:w-[100%]  m-auto" src="/dates.png" alt="Example SVG" width={1400} height={700}/>
+              <Image className="dates py-[20vw] w-[90%] sm:w-[100%]  m-auto" src="/dates.png" alt="Example SVG" width={1400} height={700}/>
             </motion.div> 
         </motion.div>
   )
