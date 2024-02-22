@@ -8,7 +8,7 @@ const EventsContent = () => {
   return (
         <motion.div initial= "hidden" animate= "visible" className='h-full w-full flex flex-col items-center md:justify-center'>
 
-            <div id ="events" className='EventHeader sm:text-[8vw] text-[10vw] w-full text-[#FFAD0E] text-center pb-[40vw]'>
+            <div id ="events" className='EventHeader sm:text-[8vw] text-[10vw] w-full text-[#FFAD0E] text-center'>
                 Events
             </div>
         </motion.div>
