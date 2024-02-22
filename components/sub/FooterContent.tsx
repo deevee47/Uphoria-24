@@ -8,7 +8,7 @@ const FooterContent = () => {
     <Image className=" absolute  w-[50%] sm:w-[20%] -top-[40%] left-[60%] sm:-top-[30%] sm:left-[80%]" src="fullGoldMandala.svg" alt="Golden Mandala" width={350} height={60} />
     <div className='glass-footer flex flex-col justify-between gap-20  h-full w-[98%] bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-0 border border-[#FFAD0E]'>
         <div className="upperfooter flex justify-between p-[1.5vw] text-[2.7vw] sm:text-[1.1vw] w-fit">
-            <div className='text-[#F6DFAD]'>Made with ❤️ from Uphoria's Tech Team <AnimatedTooltipPreview /> </div>
+            <div className='text-[#F6DFAD]'>Made with ❤️ from Uphoria&apos;s Tech Team <AnimatedTooltipPreview /> </div>
         </div>
         <div className="lowerfooter flex justify-between p-[1.5vw] text-[1vw]">
             <div className='text-[#F6DFAD] text-[4vw] sm:text-[1.5vw] p-1 '>
