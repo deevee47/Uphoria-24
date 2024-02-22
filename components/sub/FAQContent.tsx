@@ -3,6 +3,13 @@ import Image from 'next/image';
 import React from 'react'
 import {motion} from 'framer-motion'
 import { slideInFromLeft, slideInFromTop } from '@/utils/motion'
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+  } from "@/components/ui/accordion"
+  
 
 const FAQContent = () => {
   return (
@@ -14,6 +21,34 @@ const FAQContent = () => {
             </div>
             <div id="faqs" className='FAQHeading text-[5.8vw] sm:text-[4vw] text-[#FFAD0E] font-normal w-full text-center'>
                 FREQUENTLY ASKED QUESTIONS
+                <div className='faq-accordion w-[75%] sm:w-[50%] m-auto text-[3vw] sm:text-[1.5vw] text-left py-[10vw]'>
+                    <Accordion type="single" collapsible className="w-full">
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger>Will the university be providing us accommodations?</AccordionTrigger>
+                            <AccordionContent>
+                            Yes! Your safe stay will be ensured if your event requires it by the university which will be payable by you at a fair cost.
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-2">
+                            <AccordionTrigger>Can I participate in multiple events?</AccordionTrigger>
+                            <AccordionContent>
+                            Yes! It is completely alright for you to participate in any number of events you&apos;d like to, as long as their timelines don't crash. Be sure to get registered ASAP!
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-3">
+                            <AccordionTrigger>What is the eligibility criteria for registration?</AccordionTrigger>
+                            <AccordionContent>
+                            While Eligibility varies form event to event, students in 10+2 or equivalent grade and students currently pursuing undergraduate course in any discipline are eligible for most of the listed events.
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-4">
+                            <AccordionTrigger>How can I pay the registration fee?</AccordionTrigger>
+                            <AccordionContent>
+                            The payment can be made through credit/debit card, UPI or Wallet , through the link mentioned in Unstop&apos;s description.
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+                </div>
             </div>
         </motion.div>
   )
