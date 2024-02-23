@@ -96,8 +96,8 @@ export default function CarouselDemo() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="border-yellow-500 text-white" />
-        <CarouselNext className="border-yellow-500 text-white" />
+        <CarouselPrevious className="border-yellow-500 text-white hover:text-yellow-200" />
+        <CarouselNext className="border-yellow-500 text-white hover:text-yellow-200" />
       </Carousel>
     </section>
   );
