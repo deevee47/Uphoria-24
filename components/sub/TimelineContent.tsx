@@ -100,6 +100,7 @@ const TimelineContent: React.FC = () => {
           {events16.map((event, index) => (
             <EventItem key={index} time={event.time} eventName={event.eventName} />
       ))}
+
             <div className="goldenmandala animate-pulse absolute -top-[5%] left-[70%] w-[30%] sm:w-[20%] sm:left-[80%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} />
             </div>
