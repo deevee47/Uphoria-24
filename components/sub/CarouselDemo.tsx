@@ -48,7 +48,7 @@ export default function CarouselDemo() {
       eventDesc: "Description for Event 6",
       category: "Solo",
     },
-    
+
     // Add more event data as needed
   ];
 
@@ -70,11 +70,13 @@ export default function CarouselDemo() {
           className="text-yellow-500 bg-transparent border border-yellow-500 rounded-xl px-3 py-2"
         >
           <option value="">All Genres</option>
-          {Array.from(new Set(eventData.map((event) => event.genre))).map((genre) => (
-            <option key={genre} value={genre}>
-              {genre}
-            </option>
-          ))}
+          {Array.from(new Set(eventData.map((event) => event.genre))).map(
+            (genre) => (
+              <option key={genre} value={genre}>
+                {genre}
+              </option>
+            )
+          )}
         </select>
       </div>
 
