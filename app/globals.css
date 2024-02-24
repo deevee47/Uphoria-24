@@ -4,6 +4,24 @@
 @tailwind components;
 @tailwind utilities;
 
+.contact-us-text,
+.contact-us-mails,
+.faq-accordion,
+.glass-footer,
+.UphoriaText,
+.EventName {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.EventTime,
+.eventmonth,
+.explore,
+.eventdate,
+.contact-us-header,
+.FAQHeading {
+  font-family: "Cinzel";
+}
+
 .UphoriaText span {
   font-family: "Cinzel Decorative";
   text-shadow: 0px 3px 10px #f58220;
@@ -22,7 +40,6 @@
 }
 
 .explore {
-  font-family: "Cinzel";
   text-transform: uppercase;
   box-shadow: 0px 4px 4px 0px #00000040;
   box-shadow: 0px 4px 10px 0px #000000;
@@ -42,13 +59,7 @@
   text-shadow: 0px 4px 20px #f58220;
 }
 
-.EventTime,
-.eventmonth {
-  font-family: "Cinzel";
-}
-
 .EventName {
-  font-family: "Times New Roman", Times, serif;
   background: linear-gradient(180deg, #ffad0e 0%, #f58220 100%);
   color: transparent;
   background-clip: text;
@@ -57,7 +68,6 @@
 }
 
 .eventdate {
-  font-family: "Cinzel";
   color: transparent;
   background: linear-gradient(180deg, #ffad0e 32.63%, #f58220 103.39%);
   background-clip: text;
@@ -68,19 +78,9 @@
 }
 
 .contact-us-header {
-  font-family: "Cinzel";
   text-shadow: 0px 6px 10px #ffad0e80;
 }
 
-.contact-us-text,
-.contact-us-mails,
-.faq-accordion,
-.glass-footer,
-.UphoriaText {
-  font-family: "Times New Roman", Times, serif;
-}
-
 .FAQHeading {
-  font-family: "Cinzel";
   text-shadow: 0px 4px 20px #f58220;
 }
