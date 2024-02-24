@@ -18,6 +18,7 @@ const LandingPageWheel = () => {
           alt="Mandala SVG"
           width={1000}
           height={150}
+          loading="lazy"
         />
       </motion.div>
     </motion.div>
