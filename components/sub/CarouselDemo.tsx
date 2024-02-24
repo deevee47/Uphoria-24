@@ -48,7 +48,7 @@ export default function CarouselDemo() {
       eventDesc: "Description for Event 6",
       category: "Solo",
     },
-
+    
     // Add more event data as needed
   ];
 
@@ -61,7 +61,7 @@ export default function CarouselDemo() {
     : eventData;
 
   return (
-    <section className="">
+    <section className="py-4 w-full max-w-64 sm:max-w-xl md:max-w-2xl lg:max-w-4xl">
       {/* Dropdown menu */}
       <div className="mb-4 flex justify-center">
         <select
@@ -70,13 +70,11 @@ export default function CarouselDemo() {
           className="text-yellow-500 bg-transparent border border-yellow-500 rounded-xl px-3 py-2"
         >
           <option value="">All Genres</option>
-          {Array.from(new Set(eventData.map((event) => event.genre))).map(
-            (genre) => (
-              <option key={genre} value={genre}>
-                {genre}
-              </option>
-            )
-          )}
+          {Array.from(new Set(eventData.map((event) => event.genre))).map((genre) => (
+            <option key={genre} value={genre}>
+              {genre}
+            </option>
+          ))}
         </select>
       </div>
 
@@ -85,7 +83,7 @@ export default function CarouselDemo() {
           {filteredEventData.map((event, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1">
-                <Card className="backdrop-blur border-yellow-500 rounded-xl transition-transform hover:bg-yellow-500">
+                <Card className="w-400 h-400 border-yellow-500 rounded-xl transition-transform hover:bg-yellow-500">
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                     <h2 className="py-10 text-2xl font-bold mb-2 text-white">
                       {event.eventName}
@@ -98,8 +96,8 @@ export default function CarouselDemo() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="border-yellow-500 text-white hover:text-yellow-200" />
-        <CarouselNext className="border-yellow-500 text-white hover:text-yellow-200" />
+        <CarouselPrevious className="border-yellow-500" />
+        <CarouselNext className="border-yellow-500" />
       </Carousel>
     </section>
   );
