@@ -12,7 +12,7 @@ const LandingPageContent = () => {
             <motion.div 
              variants={slideInFromTop}
              className='UphoriaBox pt-[24vw] w-[55%] sm:w-[100%] m-auto'>
-              <Image className="UphoriaLogo m-auto mb-[2vw]" src="Uphoria.svg" alt="Example SVG" width={750} height={200}/>
+              <Image className="UphoriaLogo m-auto mb-[2vw]" src="Uphoria.svg" alt="Example SVG" width={750} height={200} loading="lazy"/>
               <a href='#events' className='hidden sm:inline-block explore ml-[60vw] px-[1vw] py-[0.5vw] bg-[#FFAD0ECC] rounded-2xl hover:bg-transparent hover:text-[#FFAD0E]'>Explore</a>
             </motion.div>
              <motion.div
@@ -23,7 +23,7 @@ const LandingPageContent = () => {
             </motion.div> 
 
             <motion.div>
-              <Image className="dates py-[20vw] w-[90%] sm:w-[100%]  m-auto" src="/dates.png" alt="Example SVG" width={1400} height={700}/>
+              <Image className="dates py-[20vw] w-[90%] sm:w-[100%]  m-auto" src="/dates.png" alt="Example SVG" width={1400} height={700} loading="lazy"/>
             </motion.div> 
         </motion.div>
   )

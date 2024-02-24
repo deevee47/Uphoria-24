@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { AnimatedTooltip } from "../ui/animated-tooltip";
-import Image from "next/image";
 const people = [
   {
     id: 1,
