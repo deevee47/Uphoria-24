@@ -5,7 +5,7 @@ import { slideInFromTop } from '@/utils/motion'
 
 const Navbar = () => {
   return (
-      <motion.div initial= "hidden" animate= "visible" className=" hidden sm:flex z-10 absolute w-full flex-row items-center justify-center mt-[6vh]">
+      <motion.div initial= "hidden" animate= "visible" className=" hidden sm:flex z-20 absolute w-full flex-row items-center justify-center mt-[6vh]">
         <motion.div variants={slideInFromTop} className="fixed sm:w-[35%] flex flex-row items-center justify-between md:mr-22">
           <div className=" flex items-center justify-between w-full shadow-[#FFAD0E]/50 h-auto border border-[#FFAD0E] mr-[18px] px-[23px] py-[13px] rounded-full text-[#FFAD0E] bg-[#0000006a] backdrop-blur">
             <a href="#events" className="cursor-pointer hover:drop-shadow-[0_0_3px_#FDC951]">

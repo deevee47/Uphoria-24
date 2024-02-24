@@ -61,7 +61,7 @@ export default function CarouselDemo() {
     : eventData;
 
   return (
-    <section className="py-4 w-full max-w-64 sm:max-w-xl md:max-w-2xl lg:max-w-4xl">
+    <section className="py-4 w-full max-w-64 sm:max-w-xl md:max-w-2xl lg:max-w-7xl">
       {/* Dropdown menu */}
       <div className="mb-4 flex justify-center">
         <select
@@ -78,7 +78,7 @@ export default function CarouselDemo() {
         </select>
       </div>
 
-      <Carousel className="">
+      <Carousel className="z-10">
         <CarouselContent>
           {filteredEventData.map((event, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
