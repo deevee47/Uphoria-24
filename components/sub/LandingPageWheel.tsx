@@ -14,7 +14,7 @@ const LandingPageWheel = () => {
       <motion.div variants={slideInFromLeft(0.5)}>
         <Image
           className="fullmandala animate-spin-slow"
-          src="fullmandala.svg"
+          src="/mandala_compressed.png"
           alt="Mandala SVG"
           width={1000}
           height={150}
