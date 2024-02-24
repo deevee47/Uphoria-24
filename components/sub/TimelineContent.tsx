@@ -10,11 +10,11 @@ interface EventItemProps {
 
 const EventItem: React.FC<EventItemProps> = ({ time, eventName }) => {
   return (
-    <div className='h-full w-[70%] pl-[3.5vw] flex gap-10 sm:gap-20 items-center justify-center'>
-      <motion.div variants={slideInFromLeft(0.5)} className='EventTime font-normal text-[#F6DFAD] text-[4vw] sm:text-[3vw]'>
+    <div className='group h-full w-fit pl-[3.5vw] sm:pl-[0vw] flex gap-10 sm:gap-20 items-center justify-center'>
+      <motion.div variants={slideInFromLeft(0.5)} className='EventTime text-[#F6DFAD] text-[4vw] sm:text-[2.5vw] group-hover:sm:text-[2.6vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
         {time}
       </motion.div>
-      <motion.div variants={slideInFromRight(0.5)} className='EventName font-normal text-[4.5vw] sm:text-[3vw]'>
+      <motion.div variants={slideInFromRight(0.5)} className='EventName text-[4.5vw] sm:text-[3.5vw] group-hover:sm:text-[3.6vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
         {eventName}
       </motion.div>
     </div>
@@ -92,7 +92,7 @@ const TimelineContent: React.FC = () => {
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>15</div>
             <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>
-          <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='py-[4vw] sm:py-[2vw] sm:w-[50%]'/>
+          <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='py-[4vw] sm:py-[6vw] sm:w-[50%]'/>
 
           {/* <Image className=" items-end absolute top-[0%]" src="SideWheel.svg" alt="SideWheel SVG" width={550} height={60}/> */}
           
@@ -108,7 +108,7 @@ const TimelineContent: React.FC = () => {
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>16</div>
             <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>
-          <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='py-[4vw] sm:py-[2vw] sm:w-[50%]'/>
+          <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='py-[4vw] sm:py-[6vw] sm:w-[50%]'/>
 
         {events17.map((event, index) => (
         <EventItem key={index} time={event.time} eventName={event.eventName} />
