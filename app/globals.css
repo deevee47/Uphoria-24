@@ -28,6 +28,13 @@
   background: #FFC857;
 }
 
+@media (max-width:600px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+}
+
 .contact-us-text,
 .contact-us-mails,
 .faq-accordion,
