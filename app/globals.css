@@ -4,9 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  overflow-x: hidden;
-}
+
 /* Define scrollbar styles */
 ::-webkit-scrollbar {
   width: 12px; /* Thicker scrollbar */
@@ -33,6 +31,9 @@
 @media (max-width:600px) {
   ::-webkit-scrollbar {
     display:none;
+  }
+  .landing {
+    overflow-x: hidden;
   }
 }
 
