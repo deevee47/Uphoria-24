@@ -19,6 +19,9 @@ const config = {
     },
     extend: {
       colors: {
+        strokeWidth: {
+          '2' : '20px'
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -72,6 +75,7 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         'spin-slow': 'spin 30s linear infinite',
+        'pulse': 'pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
     },
   },

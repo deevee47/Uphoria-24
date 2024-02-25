@@ -5,9 +5,9 @@ import AnimatedTooltipPreview from '../sub/tooltip'
 const FooterContent = () => {
   return (
     <footer className='w-full h-full relative justify-center flex'>
-    <Image className="animate-pulse absolute  w-1/2 sm:w-[30%] -top-[40%] left-[50%] sm:-top-[55%] sm:left-[70%]" src="fullGoldMandala.svg" alt="Golden Mandala" width={350} height={60} loading="lazy"/>
-    <div className='glass-footer flex flex-col justify-between gap-10 h-full w-[98%] bg-black/50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md border border-[#FFAD0E]'>
-        <div className="upperfooter flex justify-end p-[1.5vw] text-[2.7vw] sm:text-[1.1vw] w-full">
+    <Image className="animate-pulse absolute  w-1/2 sm:w-[26.5%] -top-[50%] left-[50%] sm:-top-[65%] sm:left-[75%]" src="fullGoldMandala.svg" alt="Golden Mandala" width={250} height={30} loading="lazy"/>
+    <div className='glass-footer flex flex-col  gap-5 justify-between h-[50%] w-[95%] bg-black/50 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md border border-[#FFAD0E]'>
+        <div className="upperfooter flex justify-end p-[1.5vw] text-[2.7vw] sm:text-[1.1vw]">
             <div className='text-[#F6DFAD]'>Made with ❤️ from Uphoria&apos;s Tech Team <AnimatedTooltipPreview /> </div>
         </div>
 

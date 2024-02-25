@@ -10,11 +10,11 @@ interface EventItemProps {
 
 const EventItem: React.FC<EventItemProps> = ({ time, eventName }) => {
   return (
-    <div className='group h-full w-fit pl-[3.5vw] sm:pl-[0vw] flex gap-10 sm:gap-20 items-center justify-center'>
-      <motion.div variants={slideInFromLeft(0.5)} className='EventTime text-[#F6DFAD] text-[4vw] sm:text-[2.5vw] group-hover:sm:text-[2.6vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
+    <div className='group h-full w-full bg-white flex gap-10 sm:gap-20 items-center justify-center'>
+      <motion.div variants={slideInFromLeft(0.5)} className='EventTime  w-[50%] flex items-center justify-end group-hover:drop-shadow-[0_0px_2px_#F6DFAD] text-[#F6DFAD] text-[4vw] sm:text-[2.5vw] group-hover:sm:text-[2.6vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
         {time}
       </motion.div>
-      <motion.div variants={slideInFromRight(0.5)} className='EventName text-[4.5vw] sm:text-[3.5vw] group-hover:sm:text-[3.6vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
+      <motion.div variants={slideInFromRight(0.5)} className='EventName w-[50%] flex items-center justify-start group-hover:drop-shadow-[0_0px_2px_#58220]  text-[4.5vw] sm:text-[3.5vw] group-hover:sm:text-[3.6vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
         {eventName}
       </motion.div>
     </div>
@@ -46,39 +46,35 @@ const TimelineContent: React.FC = () => {
   ];
 
   const events16 = [
-    { time: '9 AM - 12 AM', eventName: 'Abhinay' },
-    { time: '9 AM - 12 AM', eventName: 'Stage Play (Day 2 + Day3)' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM'  , eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
+    { time: '12:00 PM - 02:00 PM', eventName: 'Abhinay' },
+    { time: '2:00 PM - 06:00 PM', eventName: 'Stage Play (Day 2 + Day3)' },
+    { time: '4:00 PM - 06:00 PM', eventName: 'Canvas Painting' },
+    { time: '4:00 PM - 06:00 PM', eventName: 'Clay Art' },
+    { time: '12:00 PM - 01:30 PM', eventName: 'Quick Fire Quible' },
+    { time: '1:30 PM - 03:00 PM', eventName: 'Tark Taal' },
+    { time: '3:00 PM - 04:30 PM', eventName: 'Collegiate Quiz' },
+    { time: '11:00 AM - 04:00 PM', eventName: 'BGMI' },
+    { time: '4:00 PM - 09:00 PM', eventName: 'CODM' },
+    { time: '3:00 PM - 04:00 PM', eventName: 'StandUp Comedy' },
+    { time: '12:00 PM - 03:00 PM', eventName: 'Pixel Perfect' },
+    { time: '12:00 PM - 06:00 PM', eventName: 'Impromptu Frames' },
+    { time: '11:00 AM - 05:00 PM', eventName: 'Rockmania' },
+    { time: '5:00 PM - 10:00 PM', eventName: 'Supernova' },
+    { time: '10:00 PM - 12:00 AM', eventName: 'DJ Night' },
+    { time: '2:00 PM - 06:00 PM', eventName: 'War of DJs' },
   ];
 
   const events17 = [
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
-    { time: '9 AM - 12 AM', eventName: 'Aaroh' },
+    { time: '11:00 AM - 06:00 PM', eventName: 'Stage Play (Day 2 + Day3)' },
+    { time: '11:00 AM - 01:00 PM', eventName: 'Freestyle Frenzy' },
+    { time: '12:00 PM - 03:30 PM', eventName: 'Aakrosh' },
+    { time: '02:00 PM - 04:00 PM', eventName: "A Wizard's Measure" },
+    { time: '02:00 PM - 03:00 PM', eventName: 'Weeb Quiz' },
+    { time: '11:00 AM - 06:00 PM', eventName: 'Valorant Premieare League' },
+    { time: '11:00 AM - 01:00 PM', eventName: 'Bardik Battles' },
+    { time: '01:00 PM - 03:00 PM', eventName: 'Mehfil E Alfaz' },
+    { time: '04:00 PM - 06:00 PM', eventName: 'Ad Arena' },
+    { time: '09:00 PM - 11:00 PM', eventName: 'Main Artist' },
   ];
 
   return (

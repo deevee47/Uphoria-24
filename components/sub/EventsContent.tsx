@@ -10,12 +10,10 @@ const EventsContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="h-full w-full flex flex-col items-center md:justify-center"
-    >
+      className="h-full w-full flex flex-col items-center md:justify-center">
       <div
         id="events"
-        className="EventHeader sm:text-[8vw] text-[10vw] w-full text-[#FFAD0E] text-center"
-      >
+        className="EventHeader sm:text-[8vw] text-[10vw] w-full text-[#FFAD0E] text-center">
         Events
       </div>
       <CarouselDemo/>
