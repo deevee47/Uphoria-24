@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const LandingPage = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center h-full w-full">
+    <div className="landing relative flex flex-col items-center justify-center h-full w-full">
       <LandingPageContent />
       <LandingPageWheel />
     </div>
