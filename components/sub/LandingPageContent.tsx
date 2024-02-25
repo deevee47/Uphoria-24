@@ -11,8 +11,8 @@ const LandingPageContent = () => {
 
             <motion.div 
              variants={slideInFromTop}
-             className='UphoriaBox pt-[24vw] w-[55%] sm:w-[100%] m-auto'>
-              <Image className="UphoriaLogo m-auto mb-[2vw]" src="Uphoria.svg" alt="Example SVG" width={750} height={200} loading="eager"/>
+             className='UphoriaBox pt-[24vw] w-fit sm:w-[100%] m-auto animate-pulse'>
+              <Image className="UphoriaLogo m-auto mb-[2vw]" src="UphoriaGlow.svg" alt="Example SVG" width={750} height={200} loading="eager"/>
               <a href='#events' className='hidden sm:inline-block explore ml-[60vw] px-[1vw] py-[0.5vw] bg-[#FFAD0ECC] rounded-2xl hover:bg-transparent hover:text-[#FFAD0E]'>Explore</a>
             </motion.div>
              <motion.div
@@ -22,7 +22,7 @@ const LandingPageContent = () => {
             Bennett University&apos;s annual cultural fest, takes a vibrant turn this year with the theme <span className='text-[#FFAD0E] font-normal'>Band Baaja Baraat</span>, celebrating the joyous energy and colorful traditions of Indian weddings. This brand kit captures the essence of the theme through a lively visual identity.
             </motion.div> 
 
-            <motion.div>
+            <motion.div className='hover:drop-shadow-[0_0px_2px_#FFAD0E]'>
               <Image className="dates py-[20vw] w-[90%] sm:w-[100%]  m-auto" src="/dates.png" alt="Example SVG" width={1400} height={700} loading="lazy"/>
             </motion.div> 
         </motion.div>

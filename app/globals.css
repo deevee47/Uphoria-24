@@ -4,6 +4,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Define scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px; /* Thicker scrollbar */
+  border-radius: 6px; /* Slight border radius */ /* Longer scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #131313; /* Background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F4A639;
+  border-radius: 6px;
+  height: 100px; /* Slight border radius */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFC857;
+}
+
 .contact-us-text,
 .contact-us-mails,
 .faq-accordion,
