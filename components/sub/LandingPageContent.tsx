@@ -7,7 +7,7 @@ import { slideInFromLeft, slideInFromTop } from '@/utils/motion'
 
 const LandingPageContent = () => {
   return (
-        <motion.div initial= "hidden" animate= "visible" className=' pt-[10vw] sm:pt-0 h-full w-full flex flex-col items-center md:justify-center'>
+        <motion.div initial= "hidden" animate= "visible" className=' mt-[25vw] sm:mt-[0vw] sm:pt-0 h-full w-full flex flex-col items-center md:justify-center'>
 
             <motion.div 
              variants={slideInFromTop}
