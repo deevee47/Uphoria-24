@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 const LandingPageWheel = () => {
   return (
-    <div className="absolute top-[2%] -left-[50%] w-[72%] sm:w-[100%] sm:-left-[40%]">
+    <div className="absolute -top-[22%] left-[120] w-[80%] sm:w-[100%] sm:-left-[40%] sm:top-[0%]">
         <Image
           className="fullmandala animate-spin-slow"
           src="/webpmandala.webp"
