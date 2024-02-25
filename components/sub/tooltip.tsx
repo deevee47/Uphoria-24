@@ -7,42 +7,42 @@ const people = [
     name: "John Doe",
     designation: "Software Engineer",
     image:
-      "/dv.jpg",
+      "/dp/mann.jpg",
   },
   {
     id: 2,
     name: "Robert Johnson",
     designation: "Product Manager",
     image:
-    "/dv.jpg"
+    "/dp/mann.jpg"
   },
   {
     id: 3,
-    name: "Jane Smith",
-    designation: "Data Scientist",
+    name: "Garvit",
+    designation: "UI/UX Designer",
     image:
-    "/dv.jpg"
+    "/dp/mann.jpg"
   },
   {
     id: 4,
-    name: "Emily Davis",
-    designation: "UX Designer",
+    name: "Hardik Jain",
+    designation: "UI/UX Designer",
     image:
-    "/dv.jpg"
+    "/dp/dv.jpg"
   },
   {
     id: 5,
-    name: "Tyler Durden",
-    designation: "Soap Developer",
+    name: "Mann Acharya",
+    designation: "ML Engineer",
     image:
-    "/dv.jpg"
+    "/dp/mann.jpg"
   },
   {
     id: 6,
     name: "Divyansh Vishwakarma",
     designation: "Full-Stack Developer",
     image:
-    "/dv.jpg"
+    "/dp/dv.jpg"
   },
 ];
 
