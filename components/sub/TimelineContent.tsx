@@ -11,9 +11,9 @@ interface EventItemProps {
 
 const EventItem: React.FC<EventItemProps> = ({ time, eventName, url }) => {
   return (
-    <div className='group h-full w-full flex gap-10 sm:gap-20 pl-[10vw] items-center justify-center  animate-underline'>
+    <div className='group h-full w-full flex gap-10 sm:gap-20 pl-[4vw] items-center justify-center  animate-underline'>
 
-      <motion.div variants={slideInFromLeft(0.5)} className='EventTime  w-[50%] flex items-center justify-end group-hover:drop-shadow-[0_0px_2px_#F6DFAD] text-[#F6DFAD] text-[3.5vw] sm:text-[2vw] group-hover:sm:text-[2.2vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
+      <motion.div variants={slideInFromLeft(0.5)} className='EventTime w-[50%] flex items-center justify-end group-hover:drop-shadow-[0_0px_2px_#F6DFAD] text-[#F6DFAD] text-[3.5vw] sm:text-[2vw] group-hover:sm:text-[2.2vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
       <a href={url} target="_blank">{time}</a>
       </motion.div>
 
@@ -82,7 +82,7 @@ const TimelineContent: React.FC = () => {
 
   return (
     <>
-        <div id ="timeline" className=' TimelineHeading font-normal text-[#FFAD0E] sm:text-[8vw] text-[10vw] w-full text-center sm:pb-[5vw] pb-[10vw]'>
+        <div id ="timeline" className=' TimelineHeading font-normal text-[#FFAD0E] sm:text-[8vw] text-[10vw] w-full text-center sm:pb-[5vw] pb-[46vw]'>
             Timeline
         </div>
         {events15.map((event, index) => (
@@ -91,11 +91,11 @@ const TimelineContent: React.FC = () => {
             <div className="goldenmandala animate-pulse absolute -top-[43%] rotate-180 left-[0%] w-[30%] sm:w-[20%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} loading="lazy" />
             </div>
-          <div className='flex flex-col absolute mt-[30vw] top-[6%] left-[10%] sm:top-[3%] sm:left-[10%]'>
+          <div className='flex flex-col absolute mt-[30vw] -top-[2.5%] left-[46%] sm:top-[3%] sm:left-[10%]'>
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>15</div>
             <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>
-          <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='py-[4vw] sm:py-[6vw] sm:w-[50%]' loading="lazy"/>
+          <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='pb-[50vw] sm:pb[0vw] py-[4vw] sm:py-[6vw] sm:w-[50%]' loading="lazy"/>
 
           
 
@@ -106,16 +106,16 @@ const TimelineContent: React.FC = () => {
             <div className="goldenmandala animate-pulse absolute -top-[5%] left-[70%] w-[30%] sm:w-[20%] sm:left-[80%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} loading="lazy" />
             </div>
-          <div className='flex flex-col  absolute mt-[90vw] top-[22%] left-[10%] sm:top-[12%] sm:left-[10%]'>
+          <div className='flex flex-col  absolute mt-[90vw] top-[20%] left-[46%] sm:top-[12%] sm:left-[10%]'>
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>16</div>
             <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>
-          <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='py-[4vw] sm:py-[6vw] sm:w-[50%]' loading="lazy"/>
+          <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='pb-[50vw] sm:pb[0vw] py-[4vw] sm:py-[6vw] sm:w-[50%]' loading="lazy"/>
 
         {events17.map((event, index) => (
         <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url}/>
       ))}
-          <div className='flex flex-col absolute mt-[160vw] top-[35%] left-[10%] sm:top-[8%] sm:left-[10%]'>
+          <div className='flex flex-col absolute mt-[160vw] top-[35%] left-[46%] sm:top-[8%] sm:left-[10%]'>
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>17</div>
             <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
           </div>    
