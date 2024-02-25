@@ -52,43 +52,60 @@ export default function CarouselDemo() {
     // Add more event data as needed
   ];
 
-  // Add state for the selected genre
-  const [selectedGenre, setSelectedGenre] = useState(""); // Initially no genre selected
+  const [showGenreMenu, setShowGenreMenu] = useState(false);
+  const [selectedGenre, setSelectedGenre] = useState("All Genres");
 
-  // Filter eventData based on selected genre
-  const filteredEventData = selectedGenre
-    ? eventData.filter((event) => event.genre === selectedGenre)
-    : eventData;
+  const toggleGenreMenu = () => {
+    setShowGenreMenu(!showGenreMenu);
+  };
+
+  const selectGenre = (genre: string) => {
+    setSelectedGenre(genre);
+    setShowGenreMenu(false);
+  };
+
+  const allGenres = ["All Genres", ...Array.from(new Set(eventData.map((event) => event.genre)))];
+
+  const filteredEventData = selectedGenre === "All Genres"
+    ? eventData
+    : eventData.filter((event) => event.genre === selectedGenre);
 
   return (
     <section className="py-4 w-full max-w-64 sm:max-w-xl md:max-w-2xl lg:max-w-7xl">
-      {/* Dropdown menu */}
-      <div className="mb-4 flex justify-center">
-        <select
-          value={selectedGenre}
-          onChange={(event) => setSelectedGenre(event.target.value)}
-          className="text-yellow-500 bg-transparent border border-yellow-500 rounded-xl px-3 py-2"
+      <div className="relative z-10 mx-auto text-center">
+        <button
+          className="bg-transparent bg-yellow-500 text-white hover:bg-yellow-600 active:bg-yellow-700 rounded-xl p-2 cursor-pointer"
+          onClick={toggleGenreMenu}
         >
-          <option value="">All Genres</option>
-          {Array.from(new Set(eventData.map((event) => event.genre))).map((genre) => (
-            <option key={genre} value={genre}>
-              {genre}
-            </option>
-          ))}
-        </select>
+          {selectedGenre}
+        </button>
+        {showGenreMenu && (
+          <div className="absolute top-full left-1/2 transform -translate-x-1/2 bg-yellow-500 text-white rounded-xl p-2 mt-1">
+            {allGenres.map((genre, index) => (
+              <div
+                className="hover:bg-yellow-600 active:bg-yellow-700 rounded-xl px-1 cursor-pointer"
+                key={index}
+                onClick={() => selectGenre(genre as string)}
+              >
+                {genre}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
-      <Carousel className="z-10">
+      {/* Carousel */}
+      <Carousel className="py-4">
         <CarouselContent>
           {filteredEventData.map((event, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1">
-                <Card className="w-400 h-400 border-yellow-500 rounded-xl transition-transform hover:bg-yellow-500">
+                <Card className="w-400 h-400 border-yellow-500 rounded-xl transition-transform hover:bg-yellow-500 active:bg-yellow-600 cursor-pointer">
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                     <h2 className="py-10 text-2xl font-bold mb-2 text-white">
                       {event.eventName}
                     </h2>
-                    <p className=" text-white">{event.eventDesc}</p>
+                    <p className="text-white">{event.eventDesc}</p>
                     <span className="text-white">{event.category}</span>
                   </CardContent>
                 </Card>
