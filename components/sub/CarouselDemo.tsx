@@ -74,13 +74,13 @@ export default function CarouselDemo() {
     <section className="py-4 w-full max-w-64 sm:max-w-xl md:max-w-2xl lg:max-w-7xl">
       <div className="relative z-20 mx-auto text-center">
         <button
-          className="bg-transparent bg-yellow-500 text-white hover:bg-yellow-600 active:bg-yellow-700 rounded-xl p-2 cursor-pointer"
+          className="bg-[#ffad0e] text-white hover:bg-yellow-600 active:bg-yellow-700 rounded-xl p-2 cursor-pointer"
           onClick={toggleGenreMenu}
         >
           {selectedGenre}
         </button>
         {showGenreMenu && (
-          <div className="absolute top-full left-1/2 transform -translate-x-1/2 bg-yellow-500 text-white rounded-xl p-2 mt-1">
+          <div className="absolute top-full left-1/2 transform -translate-x-1/2 bg-[#ffad0e] text-white rounded-xl p-2 mt-1">
             {allGenres.map((genre, index) => (
               <div
                 className="hover:bg-yellow-600 active:bg-yellow-700 rounded-xl px-1 cursor-pointer"
