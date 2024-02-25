@@ -93,7 +93,7 @@ const TimelineContent: React.FC = () => {
             </div>
           <div className='flex flex-col absolute mt-[30vw] -top-[2.5%] left-[46%] sm:top-[3%] sm:left-[10%]'>
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>15</div>
-            <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
+            <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E] text-center sm:text-left'>March <br></br>2024</div>
           </div>
           <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='pb-[50vw] sm:pb[0vw] py-[4vw] sm:py-[6vw] sm:w-[50%]' loading="lazy"/>
 
@@ -106,18 +106,18 @@ const TimelineContent: React.FC = () => {
             <div className="goldenmandala animate-pulse absolute -top-[5%] left-[70%] w-[30%] sm:w-[20%] sm:left-[80%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} loading="lazy" />
             </div>
-          <div className='flex flex-col  absolute mt-[90vw] top-[20%] left-[46%] sm:top-[12%] sm:left-[10%]'>
+          <div className='flex flex-col  absolute mt-[90vw] top-[21%] left-[46%] sm:top-[12%] sm:left-[10%]'>
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>16</div>
-            <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
+            <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E] text-center sm:text-left'>March <br></br>2024</div>
           </div>
           <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='pb-[50vw] sm:pb[0vw] py-[4vw] sm:py-[6vw] sm:w-[50%]' loading="lazy"/>
 
         {events17.map((event, index) => (
         <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url}/>
       ))}
-          <div className='flex flex-col absolute mt-[160vw] top-[35%] left-[46%] sm:top-[8%] sm:left-[10%]'>
+          <div className='flex flex-col absolute mt-[160vw] top-[40%] left-[46%] sm:top-[8%] sm:left-[10%]'>
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>17</div>
-            <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E]'>March <br></br>2024</div>
+            <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E] text-center sm:text-left'>March <br></br>2024</div>
           </div>    
     </>
 
