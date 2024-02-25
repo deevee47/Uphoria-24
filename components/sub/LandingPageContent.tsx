@@ -23,7 +23,7 @@ const LandingPageContent = () => {
             </motion.div> 
 
             <motion.div className='hover:drop-shadow-[0_0px_2px_#FFAD0E]'>
-              <Image className="dates py-[20vw] w-[90%] sm:w-[100%]  m-auto" src="/dates.png" alt="Example SVG" width={1400} height={700} loading="lazy"/>
+              <a href="#timeline"><Image className="dates py-[20vw] w-[90%] sm:w-[100%]  m-auto" src="/dates.png" alt="Example SVG" width={1400} height={700} loading="lazy"/></a>
             </motion.div> 
         </motion.div>
   )
