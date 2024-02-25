@@ -11,10 +11,10 @@ interface EventItemProps {
 const EventItem: React.FC<EventItemProps> = ({ time, eventName }) => {
   return (
     <div className='group h-full w-full flex gap-10 sm:gap-20 pl-[10vw] items-center justify-center  animate-underline'>
-      <motion.div variants={slideInFromLeft(0.5)} className='EventTime  w-[50%] flex items-center justify-end group-hover:drop-shadow-[0_0px_2px_#F6DFAD] text-[#F6DFAD] text-[4vw] sm:text-[2vw] group-hover:sm:text-[2.2vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
+      <motion.div variants={slideInFromLeft(0.5)} className='EventTime  w-[50%] flex items-center justify-end group-hover:drop-shadow-[0_0px_2px_#F6DFAD] text-[#F6DFAD] text-[3.5vw] sm:text-[2vw] group-hover:sm:text-[2.2vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
         {time}
       </motion.div>
-      <motion.div variants={slideInFromRight(0.5)} className='EventName w-[50%] flex items-center justify-start group-hover:drop-shadow-[0_0px_2px_#58220]  text-[4.5vw] sm:text-[2.5vw] group-hover:sm:text-[2.7vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
+      <motion.div variants={slideInFromRight(0.5)} className='EventName w-[50%] flex items-center justify-start group-hover:drop-shadow-[0_0px_2px_#58220] text-[4vw] sm:text-[2.5vw] group-hover:sm:text-[2.7vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
         {eventName}
       </motion.div>
     </div>

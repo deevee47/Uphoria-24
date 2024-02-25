@@ -11,9 +11,9 @@ const LandingPageContent = () => {
 
             <motion.div 
              variants={slideInFromTop}
-             className='UphoriaBox pt-[24vw] w-fit sm:w-[100%] m-auto animate-pulse'>
-              <Image className="UphoriaLogo m-auto mb-[2vw]" src="UphoriaGlow.svg" alt="Example SVG" width={750} height={200} loading="eager"/>
-              <a href='#events' className='hidden sm:inline-block explore ml-[60vw] px-[1vw] py-[0.5vw] bg-[#FFAD0ECC] rounded-2xl hover:bg-transparent hover:text-[#FFAD0E]'>Explore</a>
+             className='UphoriaBox pt-[24vw] w-fit sm:w-[100%] m-auto'>
+              <Image className="UphoriaLogo m-auto mb-[2vw] sm:mt-[2vw] sm:ml-[29vw] animate-pulse" src="UphoriaGlow.svg" alt="Example SVG" width={750} height={200} loading="eager"/>
+              <a href='#events' className='hidden  sm:flex w-fit text-center justify-center items-center explore ml-[65vw] px-[0.7vw] py-[0.1vw] pt-[0.3vw] text-[1.2vw] bg-[#FFAD0ECC] rounded-xl hover:bg-transparent hover:text-[#FFAD0E]'>Explore</a>
             </motion.div>
              <motion.div
               id="about"
