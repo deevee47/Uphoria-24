@@ -18,8 +18,9 @@ const EventsContent = () => {
       >
         Events
       </div>
-      <CarouselDemo />
+      <CarouselDemo/>
     </motion.div>
+    
   );
 };
 
