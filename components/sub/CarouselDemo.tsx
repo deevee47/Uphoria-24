@@ -72,7 +72,7 @@ export default function CarouselDemo() {
 
   return (
     <section className="py-4 w-full max-w-64 sm:max-w-xl md:max-w-2xl lg:max-w-7xl">
-      <div className="relative z-10 mx-auto text-center">
+      <div className="relative z-20 mx-auto text-center">
         <button
           className="bg-transparent bg-yellow-500 text-white hover:bg-yellow-600 active:bg-yellow-700 rounded-xl p-2 cursor-pointer"
           onClick={toggleGenreMenu}
@@ -95,7 +95,7 @@ export default function CarouselDemo() {
       </div>
 
       {/* Carousel */}
-      <Carousel className="py-4">
+      <Carousel className="py-4 z-10">
         <CarouselContent>
           {filteredEventData.map((event, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
