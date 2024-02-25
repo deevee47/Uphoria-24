@@ -4,7 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+*{
+  overflow-x: hidden;
+}
 /* Define scrollbar styles */
 ::-webkit-scrollbar {
   width: 12px; /* Thicker scrollbar */
@@ -26,6 +28,12 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #FFC857;
+}
+
+@media (max-width:600px) {
+  ::-webkit-scrollbar {
+    display:none;
+  }
 }
 
 .contact-us-text,
