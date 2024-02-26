@@ -4,7 +4,7 @@ import AnimatedTooltipPreview from '../sub/tooltip'
 
 const FooterContent = () => {
   return (
-    <footer className='w-full h-full relative justify-center flex'>
+    <footer className='w-full h-full relative justify-center flex pb-[2vw] sm:pb-0'>
     <Image className="animate-pulse absolute  w-1/2 sm:w-[26.5%] -top-[50%] left-[50%] sm:-top-[65%] sm:left-[75%]" src="fullGoldMandala.svg" alt="Golden Mandala" width={250} height={30} loading="lazy"/>
     <div className='glass-footer flex flex-col  gap-5 justify-between h-[50%] w-[95%] bg-black/50 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md border border-[#FFAD0E]'>
         <div className="upperfooter flex justify-end p-[1.5vw] text-[2.7vw] sm:text-[1.1vw]">
