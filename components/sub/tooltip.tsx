@@ -28,7 +28,7 @@ const people = [
   },
   {
     id: 4,
-    name: "Garvit",
+    name: "Garvit Sharma",
     designation: "UI/UX Designer",
     image:
     "/dp/garvit.jpg",
