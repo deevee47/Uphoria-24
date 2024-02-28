@@ -7,12 +7,12 @@ import { slideInFromLeft, slideInFromTop } from '@/utils/motion'
 
 const LandingPageContent = () => {
   return (
-        <motion.div initial= "hidden" animate= "visible" className=' mt-[25vw] sm:mt-[0vw] sm:pt-0 h-full w-full flex flex-col items-center md:justify-center'>
+        <motion.div initial= "hidden" animate= "visible" className=' mt-[26vw] sm:mt-[0vw] sm:pt-0 h-full w-full flex flex-col items-center md:justify-center'>
 
             <motion.div 
              variants={slideInFromTop}
              className='UphoriaBox pt-[36vw] sm:pt-[24vw]  w-fit sm:w-[100%]'>
-              <Image className="UphoriaLogo mb-[2vw] sm:mt-[2vw] sm:ml-[29vw] animate-pulse" src="UphoriaGlow.svg" alt="Example SVG" width={750} height={200} loading="eager"/>
+              <Image className="UphoriaLogo mb-[2vw] sm:mt-[2vw] sm:ml-[29vw] animate-pulse" src="Uphoria.svg" alt="Example SVG" width={750} height={200} loading="eager"/>
               <a href='#events' className='hidden  sm:flex w-fit text-center justify-center items-center explore ml-[65vw] px-[0.7vw] py-[0.1vw] pt-[0.3vw] text-[1.2vw] bg-[#FFAD0ECC] rounded-xl hover:bg-transparent hover:text-[#FFAD0E]'>Explore</a>
             </motion.div>
              <motion.div
