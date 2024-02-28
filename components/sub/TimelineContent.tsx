@@ -109,7 +109,7 @@ const TimelineContent: React.FC = () => {
             <div className="goldenmandala animate-pulse absolute -top-[5%] left-[70%] w-[30%] sm:w-[20%] sm:left-[80%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} loading="lazy" />
             </div>
-          <div className='flex flex-col  absolute mt-[90vw] top-[21%] left-[44.5%] sm:top-[12%] sm:left-[10%]'>
+          <div className='flex flex-col  absolute mt-[90vw] top-[20%] left-[44.5%] sm:top-[12%] sm:left-[10%]'>
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>16</div>
             <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E] text-center sm:text-left'>March <br></br>2024</div>
           </div>
@@ -118,7 +118,7 @@ const TimelineContent: React.FC = () => {
         {events17.map((event, index) => (
         <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url || "javascript:void(0)"} />
       ))}
-          <div className='flex flex-col absolute mt-[160vw] top-[40%] left-[44.5%] sm:top-[8%] sm:left-[10%]'>
+          <div className='flex flex-col absolute mt-[160vw] top-[40%] left-[44.5%] sm:top-[10%] sm:left-[10%]'>
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>17</div>
             <div className='eventmonth text-[4vw] sm:text-[3vw] font-bold text-[#FFAD0E] text-center sm:text-left'>March <br></br>2024</div>
           </div>    
