@@ -7,7 +7,7 @@ const people = [
     name: "Divyansh Vishwakarma",
     designation: "Full-Stack Developer",
     image:
-    "/dp/dv.jpg",
+    "/dp/dv.jpeg",
     url:"https://www.linkedin.com/in/divyansh-vishwakarma-190bb4273/",
   },
   {
