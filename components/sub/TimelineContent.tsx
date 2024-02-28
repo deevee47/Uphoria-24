@@ -75,7 +75,7 @@ const TimelineContent: React.FC = () => {
     { time: '01:00 PM - 03:00 PM', eventName: 'Mehfil E Alfaz', url: 'https://unstop.com/o/cT7iFoK?lb=MXeqmNyn'},
     { time: '04:00 PM - 06:00 PM', eventName: 'Ad Arena', url: 'https://unstop.com/o/HC6NZPL?lb=MXeqmNyn'},
     { time: '04:00 PM - 06:00 PM', eventName: 'Beat Blitz', url: 'https://unstop.com/o/bD9GVLw?lb=MXeqmNyn'},
-    { time: '09:00 PM - 11:00 PM', eventName: 'Main Artist', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'},
+    { time: '09:00 PM - 11:00 PM', eventName: 'Artist Night', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'},
   ];
 
   return (
