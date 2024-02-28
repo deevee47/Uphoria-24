@@ -23,8 +23,8 @@ const FooterContent = () => {
                     <div><i className="ri-map-pin-2-fill text-[3vw] sm:text-[1.7vw] text-[#FFAD0E] mr-2 sm:w-[100%]"></i></div>
                     <div className='text-[#F6DFAD] text-[2.7vw] sm:text-[1.1vw]'>Plot Nos 8-11, TechZone II,<br></br> Greater Noida 201310, UP. India.</div>
                 </div>
-                <div className='flex justify-evenly pl-[1vw] w-[100%] text-white text-[2.7vw] sm:text-[1.1vw] '><a className='underline' href="https://www.bennett.edu.in/">Bennett University</a>
-                     <a className='underline' href="k">Unstop</a></div>
+                <div className='flex justify-evenly pl-[1vw] w-[100%] text-white text-[2.7vw] sm:text-[1.1vw] '><a className='underline' href="https://www.bennett.edu.in/" target='_blank'>Bennett University</a>
+                     <a className='underline' href="https://unstop.com/college-fests/uphoria-2024-bennett-university-bu-greater-noida-216656" target='_blank'>Unstop</a></div>
             </div>
         </div>
 
