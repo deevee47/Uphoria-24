@@ -14,11 +14,11 @@ const EventItem: React.FC<EventItemProps> = ({ time, eventName, url }) => {
     <div className='group h-full w-full flex gap-10 sm:gap-20 pl-[4vw] items-center justify-center  animate-underline'>
 
       <motion.div variants={slideInFromLeft(0.5)} className='EventTime w-[50%] flex items-center justify-end group-hover:drop-shadow-[0_0px_2px_#F6DFAD] text-[#F6DFAD] text-[3.5vw] sm:text-[2vw] group-hover:sm:text-[2.2vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
-      <a href={url} target="_blank">{time}</a>
+      <a href={url}>{time}</a>
       </motion.div>
 
       <motion.div variants={slideInFromRight(0.5)} className='EventName w-[50%] flex items-center justify-start group-hover:drop-shadow-[0_0px_2px_#58220] text-[4vw] sm:text-[2.5vw] group-hover:sm:text-[2.7vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
-      <a href={url} target="_blank">{eventName}</a>
+      <a href={url}>{eventName}</a>
       </motion.div>
     </div>
   );
@@ -89,7 +89,7 @@ const TimelineContent: React.FC = () => {
             Timeline
         </div>
         {events15.map((event, index) => (
-            <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url} />
+            <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url || "javascript:void(0)"} />
         ))}
             <div className="goldenmandala animate-pulse absolute -top-[43%] rotate-180 left-[0%] w-[30%] sm:w-[20%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} loading="lazy" />
@@ -103,7 +103,7 @@ const TimelineContent: React.FC = () => {
           
 
           {events16.map((event, index) => (
-            <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url} />
+            <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url || "javascript:void(0)"} />
       ))}
 
             <div className="goldenmandala animate-pulse absolute -top-[5%] left-[70%] w-[30%] sm:w-[20%] sm:left-[80%] h-full flex justify-end">
@@ -116,7 +116,7 @@ const TimelineContent: React.FC = () => {
           <Image src="Line.svg" alt="Line SVG" width={270} height={60} className='pb-[50vw] sm:pb[0vw] py-[4vw] sm:py-[6vw] sm:w-[50%]' loading="lazy"/>
 
         {events17.map((event, index) => (
-        <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url}/>
+        <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url || "javascript:void(0)"} />
       ))}
           <div className='flex flex-col absolute mt-[160vw] top-[40%] left-[44.5%] sm:top-[8%] sm:left-[10%]'>
             <div className='eventdate text-[16.5vw] sm:text-[15vw] font-normal'>17</div>
