@@ -128,7 +128,7 @@ export default function CarouselDemo() {
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1">
                 <CardWithImage
-                  className="w-400 h-400 border-yellow-500 rounded-xl cursor-pointer transition-transform hover:bg-[#272625] active:bg-yellow-600"
+                  className="w-400 h-400 border-yellow-500 rounded-xl cursor-pointer transition-transform hover:bg-[#f1cf461e] active:bg-yellow-600"
                   onClick={() => window.location.href = event.url}
                 >
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6 text-center">
