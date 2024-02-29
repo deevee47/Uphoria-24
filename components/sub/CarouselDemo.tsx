@@ -101,14 +101,21 @@ export default function CarouselDemo() {
   return (
     <section className="py-4 w-full max-w-64 sm:max-w-xl md:max-w-2xl lg:max-w-7xl">
       <div className="relative z-20 mx-auto text-center">
-        <button
-          className="bg-[#ffad0e] text-white text-sm md:text-base hover:bg-yellow-600 active:bg-yellow-700 rounded-xl p-2 cursor-pointer"
-          onClick={toggleGenreMenu}
-        >
-          {selectedGenre}
-        </button>
+
+        <div className="flex justify-center">
+          <button
+            className="flex bg-[#ffad0e] text-white text-xs md:text-base hover:bg-yellow-600 active:bg-yellow-700 rounded-xl p-2 cursor-pointer"
+            onClick={toggleGenreMenu}
+          >
+            {selectedGenre}
+            
+            <img src="/chevron-down.svg" className="md:w-6"></img>
+          </button>
+
+        </div>
+        
         {showGenreMenu && (
-          <div className="absolute top-full left-1/2 transform -translate-x-1/2 bg-[#ffad0e] text-white rounded-xl p-2 mt-1">
+          <div className="absolute top-full left-1/2 transform -translate-x-1/2 bg-[#ffad0e] text-white text-xs md:text-base rounded-xl p-2 mt-1">
             {allGenres.map((genre, index) => (
               <div
                 className="hover:bg-yellow-600 active:bg-yellow-700 rounded-xl px-1 cursor-pointer"
@@ -136,7 +143,7 @@ export default function CarouselDemo() {
                       {event.eventName}
                     </h2>
                     <p className="CardDesc text-sm md:text-xl font-bold text-white mb-4">{event.description}</p>
-                    <button className="mt-2 bg-[#ffad0e] text-black border border-black hover:bg-yellow-600 active:bg-yellow-700 rounded-full py-2 px-4 focus:outline-none">
+                    <button className="mt-2 bg-[#ffad0e] text-black text-xs md:text-base border border-black hover:bg-yellow-600 active:bg-yellow-700 rounded-full px-4 py-2 focus:outline-none">
                       Register
                     </button>
                   </CardContent>
