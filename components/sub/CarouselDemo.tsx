@@ -66,7 +66,7 @@ export default function CarouselDemo() {
   { genre: "Music", eventName: "War of DJs", description: "DJ War", url: "https://unstop.com/o/5n6bhXK?lb=MXeqmNyn" },
 
   // Events for 17th March
-  { genre: "Theatre", eventName: "Stage Play", description: "Stage Play Competition", url: "https://unstop.com/o/MtPAqg2?lb=MXeqmNyn" },
+  //already added once{ genre: "Theatre", eventName: "Stage Play", description: "Stage Play Competition", url: "https://unstop.com/o/MtPAqg2?lb=MXeqmNyn" },
   { genre: "Dance", eventName: "Freestyle Frenzy", description: "Freestyle Street Dance Off", url: "https://unstop.com/o/aibwtkK?lb=MXeqmNyn" },
   { genre: "Theatre", eventName: "Aakrosh", description: "Nukkad-Natak", url: "https://unstop.com/o/5rfBiuj?lb=MXeqmNyn" },
   { genre: "Dance", eventName: "Groove Wars", description: "Western Group Dance Competition", url: "https://unstop.com/o/gHCojA9?lb=MXeqmNyn" },
