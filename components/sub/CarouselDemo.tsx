@@ -102,7 +102,7 @@ export default function CarouselDemo() {
     <section className="py-4 w-full max-w-64 sm:max-w-xl md:max-w-2xl lg:max-w-7xl">
       <div className="relative z-20 mx-auto text-center">
         <button
-          className="bg-[#ffad0e] text-white hover:bg-yellow-600 active:bg-yellow-700 rounded-xl p-2 cursor-pointer"
+          className="bg-[#ffad0e] text-white text-sm md:text-base hover:bg-yellow-600 active:bg-yellow-700 rounded-xl p-2 cursor-pointer"
           onClick={toggleGenreMenu}
         >
           {selectedGenre}
