@@ -41,10 +41,6 @@ const TimelineContent: React.FC = () => {
     { time: '10:00 PM - 12:00 AM', eventName: 'Band Night'},
     { time: '12:00 PM - 02:30 PM', eventName: 'Mridang',  url: 'https://unstop.com/o/QRv4qfD?lb=MXeqmNyn'},
     { time: '02:30 PM - 05:00 PM', eventName: 'Chandrakala',  url: 'https://unstop.com/o/aKk7B14?lb=MXeqmNyn'},
-    { time: '09:00 PM - 10:00 PM', eventName: 'Prom Night'},
-    { time: '10:00 PM - 12:00 AM', eventName: 'Band Night'},
-    { time: '12:00 PM - 02:30 PM', eventName: 'Mridang',  url: 'https://unstop.com/o/QRv4qfD?lb=MXeqmNyn'},
-    { time: '02:30 PM - 05:00 PM', eventName: 'Chandrakala',  url: 'https://unstop.com/o/QRv4qfD?lb=MXeqmNyn'},
     { time: '05:00 PM - 06:30 PM', eventName: 'Beat Brawl',  url: 'https://unstop.com/o/6nkP93B?lb=MXeqmNyn'},
     { time: '06:30 PM - 08:00 PM', eventName: 'Bars Mayhem',  url: 'https://unstop.com/o/t3HBj91?lb=MXeqmNyn'},
   ];
