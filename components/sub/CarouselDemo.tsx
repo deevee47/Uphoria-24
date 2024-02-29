@@ -18,7 +18,7 @@ interface CardWithImageProps {
 
 const CardWithImage: React.FC<CardWithImageProps> = ({ className, onClick, children}) => (
   <Card className={className} onClick={onClick}>
-    <div className="relative w-full h-full rounded-xl overflow-hidden">
+    <div className="relative w-full h-full rounded-xl overflow-hidden backdrop-blur-sm">
       <img src={"/goldmandela.svg"} alt="Events" className="w-full h-full object-cover" />
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end p-4">
         {children}
@@ -128,15 +128,15 @@ export default function CarouselDemo() {
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1">
                 <CardWithImage
-                  className="w-400 h-400 border-yellow-500 rounded-xl cursor-pointer transition-transform hover:bg-yellow-700 active:bg-yellow-600"
+                  className="w-400 h-400 border-yellow-500 rounded-xl cursor-pointer transition-transform hover:bg-[#272625] active:bg-yellow-600"
                   onClick={() => window.location.href = event.url}
                 >
-                  <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
-                    <h2 className="py-2 text-2xl font-bold mb-2 text-white">
+                  <CardContent className="flex flex-col aspect-square items-center justify-center p-6 text-center">
+                    <h2 className="CardName py-2 text-2xl md:text-4xl font-extrabold mb-2 text-white">
                       {event.eventName}
                     </h2>
-                    <p className="text-sm text-white mb-4">{event.description}</p>
-                    <button className="mt-2 bg-[#ffad0e] text-white hover:bg-yellow-600 active:bg-yellow-700 rounded-full py-2 px-4 focus:outline-none">
+                    <p className="CardDesc text-sm md:text-xl font-bold text-white mb-4">{event.description}</p>
+                    <button className="mt-2 bg-[#ffad0e] text-black border border-black hover:bg-yellow-600 active:bg-yellow-700 rounded-full py-2 px-4 focus:outline-none">
                       Register
                     </button>
                   </CardContent>
