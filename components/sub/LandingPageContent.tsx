@@ -22,7 +22,7 @@ const LandingPageContent = () => {
             Bennett University&apos;s annual cultural fest, takes a vibrant turn this year with the theme <span className='text-[#FFAD0E] font-normal'>Band Baaja Baraat</span>, celebrating the joyous energy and colorful traditions of Indian weddings. This brand kit captures the essence of the theme through a lively visual identity.
             </motion.div> 
 
-            <motion.div className='hover:drop-shadow-[0_0px_2px_#FFAD0E]'>
+            <motion.div>
               <a href="#timeline"><Image className="dates py-[20vw] w-[90%] sm:w-[100%]  m-auto" src="/dates.png" alt="Example SVG" width={1400} height={700} loading="lazy"/></a>
             </motion.div> 
         </motion.div>
