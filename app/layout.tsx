@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="en">
       <head><link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"rel="stylesheet"/></head>
-        <body style={{ backgroundImage: `url('/noiseEffect70.png'), url('/bg2.svg')` }} className={`${inter.className} absolute bg-top sm:bg-top overflow-y-scroll overflow-x-hidden bg-cover bg-repeat bg-[#231F1E]`}>
+        <body style={{ backgroundImage: `url('/noiseEffect70.png'), url('/bg2.svg')` }} className={`${inter.className} absolute bg-top sm:bg-top overflow-y-scroll overflow-x-hidden bg-cover bg-[#231F1E]`}>
          
          <Navbar />
          {children}
