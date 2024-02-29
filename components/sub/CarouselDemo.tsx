@@ -10,6 +10,24 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
+interface CardWithImageProps {
+  className?: string;
+  onClick?: () => void;
+  children?: React.ReactNode;
+}
+
+const CardWithImage: React.FC<CardWithImageProps> = ({ className, onClick, children}) => (
+  <Card className={className} onClick={onClick}>
+    <div className="relative w-full h-full rounded-xl overflow-hidden">
+      <img src={"/goldmandela.svg"} alt="Events" className="w-full h-full object-cover" />
+      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end p-4">
+        {children}
+      </div>
+    </div>
+  </Card>
+);
+
+
 export default function CarouselDemo() {
   const eventData = [
     // Events for 15th March
@@ -109,7 +127,7 @@ export default function CarouselDemo() {
           {filteredEventData.map((event, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1">
-                <Card
+                <CardWithImage
                   className="w-400 h-400 border-yellow-500 rounded-xl cursor-pointer transition-transform hover:bg-yellow-700 active:bg-yellow-600"
                   onClick={() => window.location.href = event.url}
                 >
@@ -122,7 +140,7 @@ export default function CarouselDemo() {
                       Register
                     </button>
                   </CardContent>
-                </Card>
+                </CardWithImage>
               </div>
             </CarouselItem>
           ))}
