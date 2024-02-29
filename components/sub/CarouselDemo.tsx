@@ -2,6 +2,7 @@
 import * as React from "react";
 import { useState } from "react"; // Import useState for dropdown state
 import { Card, CardContent } from "@/components/ui/card";
+import Image from 'next/image'
 import {
   Carousel,
   CarouselContent,
@@ -109,7 +110,8 @@ export default function CarouselDemo() {
           >
             {selectedGenre}
             
-            <img src="/chevron-down.svg" alt="dropdown" className="md:w-6" width={1} height={1}></img>
+            <Image className="md:w-6" src="/chveron.down.svg" alt="Dropdown" width={1} height={1} loading="lazy"/>
+
           </button>
 
         </div>
