@@ -33,11 +33,20 @@ const TimelineContent: React.FC = () => {
     { time: '12:00 PM - 02:00 PM', eventName: 'Mandala Art',  url: 'https://unstop.com/o/CNiAQOc?lb=MXeqmNyn'},
     { time: '02:00 PM - 04:00 PM', eventName: 'Doodling',  url: 'https://unstop.com/o/FNPAx6O?lb=MXeqmNyn'},
     { time: '04:00 PM - 06:00 PM', eventName: 'Sketching',  url: 'https://unstop.com/o/vl4jTfL?lb=MXeqmNyn'},
+
+
     { time: '12:00 PM - 06:00 PM', eventName: 'FIFA'},
+
     { time: '12:00 PM - 03:00 PM', eventName: 'Improv Leela',  url: 'https://unstop.com/o/fuQ0dKZ?lb=MXeqmNyn'},
     { time: '02:00 PM - 04:00 PM', eventName: 'Reel it in',  url: 'https://unstop.com/o/XobaNth?lb=MXeqmNyn'},
     { time: '02:00 PM - 04:00 PM', eventName: 'Stellar Vision',  url: 'https://unstop.com/o/3wZzcJ5?lb=MXeqmNyn'},
     { time: '12:00 PM - 02:30 PM', eventName: 'Nrityakala',  url: 'https://unstop.com/o/z0SpRwd?lb=MXeqmNyn'},
+
+    { time: '09:00 PM - 10:00 PM', eventName: 'Prom Night'},
+    { time: '10:00 PM - 12:00 AM', eventName: 'Band Night'},
+    { time: '12:00 PM - 02:30 PM', eventName: 'Mridang',  url: 'https://unstop.com/o/QRv4qfD?lb=MXeqmNyn'},
+    { time: '02:30 PM - 05:00 PM', eventName: 'Chandrakala',  url: 'https://unstop.com/o/aKk7B14?lb=MXeqmNyn'},
+
     { time: '02:30 PM - 05:00 PM', eventName: 'Band Sound Check'},
     { time: '05:00 PM - 08:00 PM', eventName: 'Faculty Award Night'},
     { time: '09:00 PM - 10:00 PM', eventName: 'Prom Night'},
@@ -50,6 +59,8 @@ const TimelineContent: React.FC = () => {
 
   const events16 = [
     { time: '12:00 PM - 02:00 PM', eventName: 'Abhinay',  url: 'https://unstop.com/o/DsFSORf?lb=MXeqmNyn'},
+    { time: '2:00 PM - 06:00 PM', eventName: 'Stage Play',  url: 'https://unstop.com/o/MtPAqg2?lb=MXeqmNyn'},
+    { time: '4:00 PM - 06:00 PM', eventName: 'Canvas Painting',  url: 'https://unstop.com/o/0vbOsDk?lb=MXeqmNyn'},
     { time: '2:00 PM - 06:00 PM', eventName: 'Stage Play (Day 2 + Day3)',  url: 'https://unstop.com/o/MtPAqg2?lb=MXeqmNyn'},
     { time: '4:00 PM - 06:00 PM', eventName: 'Canvas Painting',  url: 'https://unstop.com/o/0vbOsDk?lb=MXeqmNyn'},
     { time: '4:00 PM - 06:00 PM', eventName: 'Clay Art'},
@@ -69,6 +80,7 @@ const TimelineContent: React.FC = () => {
   ];
 
   const events17 = [
+    { time: '11:00 AM - 06:00 PM', eventName: 'Stage Play', url: 'https://unstop.com/o/MtPAqg2?lb=MXeqmNyn'},
     { time: '11:00 AM - 06:00 PM', eventName: 'Stage Play (Day 2 + Day3)', url: 'https://unstop.com/o/MtPAqg2?lb=MXeqmNyn'},
     { time: '11:00 AM - 01:00 PM', eventName: 'Freestyle Frenzy', url: 'https://unstop.com/o/aibwtkK?lb=MXeqmNyn'},
     { time: '12:00 PM - 03:30 PM', eventName: 'Aakrosh', url: 'https://unstop.com/o/5rfBiuj?lb=MXeqmNyn'},
@@ -80,6 +92,7 @@ const TimelineContent: React.FC = () => {
     { time: '01:00 PM - 03:00 PM', eventName: 'Mehfil E Alfaz', url: 'https://unstop.com/o/cT7iFoK?lb=MXeqmNyn'},
     { time: '04:00 PM - 06:00 PM', eventName: 'Ad Arena', url: 'https://unstop.com/o/HC6NZPL?lb=MXeqmNyn'},
     { time: '04:00 PM - 06:00 PM', eventName: 'Beat Blitz', url: 'https://unstop.com/o/bD9GVLw?lb=MXeqmNyn'},
+    { time: '09:00 PM - 11:00 PM', eventName: 'Artist Night', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'},
     { time: '09:00 PM - 11:00 PM', eventName: 'Main Artist', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'},
   ];
 

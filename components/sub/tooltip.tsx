@@ -34,6 +34,14 @@ const people = [
     "/dp/garvit.jpg",
     url:"https://www.linkedin.com/in/garvitsharma1/",
   },
+  {
+    id: 5,
+    name: "Nabh Raghav",
+    designation: "Frontend Developer",
+    image:
+    "/dp/nabh.jpg",
+    url:"https://www.linkedin.com/in/nabh-raghav-69420/",
+  },
 
 
 ];

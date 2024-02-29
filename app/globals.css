@@ -122,4 +122,18 @@
   filter: drop-shadow(0 4px 23px rgba(0, 0, 0, 0.5)); /* Adjust values as needed */
   filter: drop-shadow(0 4px 30px rgba(255, 173, 14, 0.5)); /* Adjust values as needed */
   filter: drop-shadow(0 0 8px rgba(245,130,32, 0.5)); /* Adjust values as needed */
+
+}
+
+.CardName {
+  font-family: "Cinzel Decorative";
+  color: #FFD35B;
+  text-shadow: 0px 4px 20px #000000;
+}
+
+.CardDesc {
+  font-family: "Cinzel";
+  color: white;
+  text-shadow: 0px 4px 20px #000000;
+
 }
