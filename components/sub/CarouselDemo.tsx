@@ -23,8 +23,8 @@ export default function CarouselDemo() {
     { genre: "Film", eventName: "Reel it in", description: "Offline Reel Making Competition", url: "https://unstop.com/o/XobaNth?lb=MXeqmNyn" },
     { genre: "Creative", eventName: "Stellar Vision", description: "Model Showcase", url: "https://unstop.com/o/3wZzcJ5?lb=MXeqmNyn" },
     { genre: "Dance", eventName: "Nrityakala", description: "Group Classical Dance", url: "https://unstop.com/o/z0SpRwd?lb=MXeqmNyn" },
-    { genre: "Main Event", eventName: "Prom Night" },
-    { genre: "Main Event", eventName: "Band Night" },
+    { genre: "Main Event", eventName: "Prom Night", description: "", url: ""},
+    { genre: "Main Event", eventName: "Band Night", description: "", url: ""},
     { genre: "Music", eventName: "Mridang", description: "Solo Instrumental", url: "https://unstop.com/o/QRv4qfD?lb=MXeqmNyn" },
     { genre: "Dance", eventName: "Chandrakala", description: "Solo Classical Dance", url: "https://unstop.com/o/aKk7B14?lb=MXeqmNyn" },
     { genre: "Music", eventName: "Beat Brawl", description: "Beatboxing Competition", url: "https://unstop.com/o/6nkP93B?lb=MXeqmNyn" },
@@ -38,13 +38,13 @@ export default function CarouselDemo() {
   { genre: "Talent Show", eventName: "Mr and Ms Uphoria", description: "Talent Show", url: "https://unstop.com/o/gPkwEU8?lb=MXeqmNyn" },
   { genre: "Debate", eventName: "Tark Taal", description: "Just A Minute Hindi", url: "https://unstop.com/o/P14tyOL?lb=MXeqmNyn" },
   { genre: "Quiz", eventName: "Collegiate Quiz", description: "Quiz", url: "https://unstop.com/o/tYoIVfK?lb=MXeqmNyn" },
-  { genre: "Gaming", eventName: "BGMI" },
+  { genre: "Gaming", eventName: "BGMI", description: "", url: ""},
   { genre: "Comedy", eventName: "StandUp Comedy", description: "Hasgulla", url: "https://unstop.com/o/5JFqXMD?lb=MXeqmNyn" },
   { genre: "Creative", eventName: "Pixel Perfect", description: "Offline Graphic Designing Competition", url: "https://unstop.com/o/guNlMvW?lb=MXeqmNyn" },
   { genre: "Photography", eventName: "Impromptu Frames", description: "On The Spot Photography", url: "https://unstop.com/o/0ySR6Tf?lb=MXeqmNyn" },
   { genre: "Music", eventName: "Rockmania", description: "Battle of Bands", url: "https://unstop.com/o/xL4bGyQ?lb=MXeqmNyn" },
   { genre: "Fashion", eventName: "Supernova", description: "Fashion Show", url: "https://unstop.com/o/Q7i8ubo?lb=MXeqmNyn" },
-  { genre: "Main Event", eventName: "DJ Night" },
+  { genre: "Main Event", eventName: "DJ Night", description: "", url: ""},
   { genre: "Music", eventName: "War of DJs", description: "DJ War", url: "https://unstop.com/o/5n6bhXK?lb=MXeqmNyn" },
 
   // Events for 17th March
@@ -54,12 +54,12 @@ export default function CarouselDemo() {
   { genre: "Dance", eventName: "Groove Wars", description: "Western Group Dance Competition", url: "https://unstop.com/o/gHCojA9?lb=MXeqmNyn" },
   { genre: "Debate", eventName: "A Wizard's Measure", description: "Debate - Harry Potter Theme", url: "https://unstop.com/o/bokSIxJ?lb=MXeqmNyn" },
   { genre: "Quiz", eventName: "Weeb Quiz", description: "Anime Quiz", url: "https://unstop.com/o/jGyJetC?lb=MXeqmNyn" },
-  { genre: "Gaming", eventName: "Valorant Premieare League" },
+  { genre: "Gaming", eventName: "Valorant Premieare League", description: "", url: "" },
   { genre: "Poetry", eventName: "Bardic Battles", description: "Slam Poetry English", url: "https://unstop.com/o/NV8XjR9?lb=MXeqmNyn" },
   { genre: "Poetry", eventName: "Mehfil E Alfaz", description: "Slam Poetry Hindi", url: "https://unstop.com/o/cT7iFoK?lb=MXeqmNyn" },
   { genre: "Creative", eventName: "Ad Arena", description: "Ad Mad", url: "https://unstop.com/o/HC6NZPL?lb=MXeqmNyn" },
   { genre: "Music", eventName: "Beat Blitz", description: "Western Solo Dance", url: "https://unstop.com/o/bD9GVLw?lb=MXeqmNyn" },
-  { genre: "Main Event", eventName: "Artist Night" },
+  { genre: "Main Event", eventName: "Artist Night", description: "", url: "" },
   ];
 
   const [showGenreMenu, setShowGenreMenu] = useState(false);
