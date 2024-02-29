@@ -66,7 +66,7 @@ export default function CarouselDemo() {
   { genre: "Music", eventName: "War of DJs", description: "DJ War", url: "https://unstop.com/o/5n6bhXK?lb=MXeqmNyn" },
 
   // Events for 17th March
-  { genre: "Theatre", eventName: "Stage Play", description: "Stage Play Competition", url: "https://unstop.com/o/MtPAqg2?lb=MXeqmNyn" },
+  //already added once{ genre: "Theatre", eventName: "Stage Play", description: "Stage Play Competition", url: "https://unstop.com/o/MtPAqg2?lb=MXeqmNyn" },
   { genre: "Dance", eventName: "Freestyle Frenzy", description: "Freestyle Street Dance Off", url: "https://unstop.com/o/aibwtkK?lb=MXeqmNyn" },
   { genre: "Theatre", eventName: "Aakrosh", description: "Nukkad-Natak", url: "https://unstop.com/o/5rfBiuj?lb=MXeqmNyn" },
   { genre: "Dance", eventName: "Groove Wars", description: "Western Group Dance Competition", url: "https://unstop.com/o/gHCojA9?lb=MXeqmNyn" },
@@ -128,7 +128,7 @@ export default function CarouselDemo() {
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1">
                 <CardWithImage
-                  className="w-400 h-400 border-yellow-500 rounded-xl cursor-pointer transition-transform hover:bg-[#272625] active:bg-yellow-600"
+                  className="w-400 h-400 border-yellow-500 rounded-xl cursor-pointer transition-transform hover:bg-[#f1cf461e] active:bg-yellow-600"
                   onClick={() => window.location.href = event.url}
                 >
                   <CardContent className="flex flex-col aspect-square items-center justify-center p-6 text-center">
