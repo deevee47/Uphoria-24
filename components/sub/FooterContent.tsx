@@ -15,13 +15,13 @@ const FooterContent = () => {
             <div className='text-[#F6DFAD] text-[4vw] sm:text-[1.5vw] p-1 '>
                 <div className='pb-2'>Follow us</div>
 
-                    <a href="https://www.instagram.com/bennettuniv?igsh=b3QyNzM1NHB6cHl0" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/bennettuniv?igsh=b3QyNzM1NHB6cHl0" aria-label="Click to redirect to Instagram" target="_blank" rel="noopener noreferrer">
                         <i className="ri-instagram-fill text-[4.5vw] sm:text-[1.5vw] bg-[#FFAD0E] text-black border-[#FFAD0E] rounded-full p-[0.5vw] mr-3"></i>
                     </a>
-                    <a href="https://www.linkedin.com/school/bennett-university/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/school/bennett-university/" aria-label="Click to redirect to LinkedIn" target="_blank" rel="noopener noreferrer">
                         <i className="ri-linkedin-fill text-[4.5vw] sm:text-[1.5vw] bg-[#FFAD0E] text-black border-[#FFAD0E] rounded-full p-[0.5vw] mr-3"></i>
                     </a>
-                    <a href="https://www.facebook.com/bennettuniversity?mibextid=PtKPJ9" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/bennettuniversity?mibextid=PtKPJ9" aria-label="Click to redirect to Facebook" target="_blank" rel="noopener noreferrer">
                         <i className="ri-facebook-fill text-[4.5vw] sm:text-[1.5vw] bg-[#FFAD0E] text-black border-[#FFAD0E] rounded-full p-[0.5vw] mr-3"></i>
                     </a>
             

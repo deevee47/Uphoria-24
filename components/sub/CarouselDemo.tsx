@@ -109,7 +109,7 @@ export default function CarouselDemo() {
           >
             {selectedGenre}
             
-            <img src="/chevron-down.svg" className="md:w-6"></img>
+            <img src="/chevron-down.svg" alt="dropdown" className="md:w-6" width={1} height={1}></img>
           </button>
 
         </div>
