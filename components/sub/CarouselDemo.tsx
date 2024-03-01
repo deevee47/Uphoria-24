@@ -110,7 +110,7 @@ export default function CarouselDemo() {
           >
             {selectedGenre}
             
-            <Image className="md:w-6" src="/chveron.down.svg" alt="Dropdown" width={1} height={1} loading="lazy"/>
+            <Image className="md:w-6" src="/chevron-down.svg" alt="Dropdown" width={1} height={1} loading="lazy"/>
 
           </button>
 
