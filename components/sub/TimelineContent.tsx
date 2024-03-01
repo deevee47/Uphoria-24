@@ -53,7 +53,7 @@ const TimelineContent: React.FC = () => {
     { time: '12:00 PM - 02:00 PM', eventName: 'Mr and Ms Uphoria',  url: 'https://unstop.com/o/gPkwEU8?lb=MXeqmNyn'},
     { time: '1:30 PM - 03:00 PM', eventName: 'Tark Taal',  url: 'https://unstop.com/o/P14tyOL?lb=MXeqmNyn'},
     { time: '3:00 PM - 04:30 PM', eventName: 'Collegiate Quiz',  url: 'https://unstop.com/o/tYoIVfK?lb=MXeqmNyn'},
-    { time: '11:00 AM - 04:00 PM', eventName: 'Showdown Arena'},
+    { time: '11:00 AM - 04:00 PM', eventName: 'Showdown Arena (BGMI)'},
     { time: '3:00 PM - 04:00 PM', eventName: 'StandUp Comedy',  url: 'https://unstop.com/o/5JFqXMD?lb=MXeqmNyn'},
     { time: '12:00 PM - 03:00 PM', eventName: 'Pixel Perfect',  url: 'https://unstop.com/o/guNlMvW?lb=MXeqmNyn'},
     { time: '12:00 PM - 06:00 PM', eventName: 'Impromptu Frames',  url: 'https://unstop.com/o/0ySR6Tf?lb=MXeqmNyn'},
