@@ -13,12 +13,12 @@ const EventItem: React.FC<EventItemProps> = ({ time, eventName, url }) => {
   return (
     <div className='group h-full w-full flex gap-10 sm:gap-20 pl-[4vw] items-center justify-center  animate-underline'>
 
-      <motion.div variants={slideInFromLeft(0.5)} className='EventTime z-20 w-[50%] flex items-center justify-end group-hover:drop-shadow-[0_0px_2px_#F6DFAD] text-[#F6DFAD] text-[3.5vw] sm:text-[2vw] group-hover:sm:text-[2.2vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
-      <a href={url}>{time}</a>
+      <motion.div variants={slideInFromLeft(0.5)} className='EventTime w-[50%] flex items-center justify-end group-hover:drop-shadow-[0_0px_2px_#F6DFAD] text-[#F6DFAD] text-[3.5vw] sm:text-[2vw] group-hover:sm:text-[2.2vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
+      <a href={url} target='_blank'>{time}</a>
       </motion.div>
 
-      <motion.div variants={slideInFromRight(0.5)} className='EventName z-20 w-[50%] flex items-center justify-start group-hover:drop-shadow-[0_0px_2px_#58220] text-[4vw] sm:text-[2.5vw] group-hover:sm:text-[2.7vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
-      <a href={url}>{eventName}</a>
+      <motion.div variants={slideInFromRight(0.5)} className='EventName w-[50%] flex items-center justify-start group-hover:drop-shadow-[0_0px_2px_#58220] text-[4vw] sm:text-[2.5vw] group-hover:sm:text-[2.7vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
+      <a href={url} target='_blank'>{eventName}</a>
       </motion.div>
     </div>
   );
@@ -53,7 +53,7 @@ const TimelineContent: React.FC = () => {
     { time: '12:00 PM - 02:00 PM', eventName: 'Mr and Ms Uphoria',  url: 'https://unstop.com/o/gPkwEU8?lb=MXeqmNyn'},
     { time: '1:30 PM - 03:00 PM', eventName: 'Tark Taal',  url: 'https://unstop.com/o/P14tyOL?lb=MXeqmNyn'},
     { time: '3:00 PM - 04:30 PM', eventName: 'Collegiate Quiz',  url: 'https://unstop.com/o/tYoIVfK?lb=MXeqmNyn'},
-    { time: '11:00 AM - 04:00 PM', eventName: 'Showdown Arena (BGMI)'},
+    { time: '11:00 AM - 04:00 PM', eventName: 'Showdown Arena (BGMI)', url: 'https://unstop.com/o/N8shUg2?lb=MXeqmNyn'},
     { time: '3:00 PM - 04:00 PM', eventName: 'StandUp Comedy',  url: 'https://unstop.com/o/5JFqXMD?lb=MXeqmNyn'},
     { time: '12:00 PM - 03:00 PM', eventName: 'Pixel Perfect',  url: 'https://unstop.com/o/guNlMvW?lb=MXeqmNyn'},
     { time: '12:00 PM - 06:00 PM', eventName: 'Impromptu Frames',  url: 'https://unstop.com/o/0ySR6Tf?lb=MXeqmNyn'},
@@ -70,7 +70,7 @@ const TimelineContent: React.FC = () => {
     { time: '01:30 PM - 03:30 PM', eventName: 'Groove Wars', url: 'https://unstop.com/o/gHCojA9?lb=MXeqmNyn'},
     { time: '02:00 PM - 04:00 PM', eventName: "A Wizard's Measure", url: 'https://unstop.com/o/bokSIxJ?lb=MXeqmNyn'},
     { time: '02:00 PM - 03:00 PM', eventName: 'Weeb Quiz', url: 'https://unstop.com/o/jGyJetC?lb=MXeqmNyn'},
-    { time: '11:00 AM - 06:00 PM', eventName: 'Valorant Premiere League'},
+    { time: '11:00 AM - 06:00 PM', eventName: 'Valorant Premiere League', url: 'https://unstop.com/o/SVcefDN?lb=MXeqmNyn'},
     { time: '11:00 AM - 01:00 PM', eventName: 'Bardik Battles', url: 'https://unstop.com/o/NV8XjR9?lb=MXeqmNyn'},
     { time: '01:00 PM - 03:00 PM', eventName: 'Mehfil E Alfaz', url: 'https://unstop.com/o/cT7iFoK?lb=MXeqmNyn'},
     { time: '04:00 PM - 06:00 PM', eventName: 'Ad Arena', url: 'https://unstop.com/o/HC6NZPL?lb=MXeqmNyn'},
