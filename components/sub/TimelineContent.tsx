@@ -18,7 +18,7 @@ const EventItem: React.FC<EventItemProps> = ({ time, eventName, url }) => {
       </motion.div>
 
       <motion.div variants={slideInFromRight(0.5)} className='EventName w-[50%] flex items-center justify-start group-hover:drop-shadow-[0_0px_2px_#58220] text-[4vw] sm:text-[2.5vw] group-hover:sm:text-[2.7vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
-      <a href={url}>{eventName}</a>
+      <a href={url} target='_blank'>{eventName}</a>
       </motion.div>
     </div>
   );
