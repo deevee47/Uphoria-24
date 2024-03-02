@@ -77,7 +77,7 @@ export default function CarouselDemo() {
   { genre: "Poetry", eventName: "Bardic Battles", description: "Slam Poetry English", url: "https://unstop.com/o/NV8XjR9?lb=MXeqmNyn" },
   { genre: "Poetry", eventName: "Mehfil E Alfaz", description: "Slam Poetry Hindi", url: "https://unstop.com/o/cT7iFoK?lb=MXeqmNyn" },
   { genre: "Creative", eventName: "Ad Arena", description: "Ad Mad", url: "https://unstop.com/o/HC6NZPL?lb=MXeqmNyn" },
-  { genre: "Music", eventName: "Beat Blitz", description: "Western Solo Dance", url: "https://unstop.com/o/bD9GVLw?lb=MXeqmNyn" },
+  { genre: "Dance", eventName: "Beat Blitz", description: "Western Solo Dance", url: "https://unstop.com/o/bD9GVLw?lb=MXeqmNyn" },
   { genre: "Main Event", eventName: "Artist Night", description: "", url: "" },
   ];
 
