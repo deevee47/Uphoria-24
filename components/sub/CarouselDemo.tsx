@@ -73,7 +73,7 @@ export default function CarouselDemo() {
   { genre: "Dance", eventName: "Groove Wars", description: "Western Group Dance Competition", url: "https://unstop.com/o/gHCojA9?lb=MXeqmNyn" },
   { genre: "Debate", eventName: "A Wizard's Measure", description: "Debate - Harry Potter Theme", url: "https://unstop.com/o/bokSIxJ?lb=MXeqmNyn" },
   { genre: "Quiz", eventName: "Weeb Quiz", description: "Anime Quiz", url: "https://unstop.com/o/jGyJetC?lb=MXeqmNyn" },
-  { genre: "Gaming", eventName: "Valorant Premieare League", description: " Inter-College Valorant Showdown", url: "https://unstop.com/events/valorant-premier-league-uphoria-2024-bennett-university-bu-greater-noida-917100?lb=MXeqmNyn" },
+  { genre: "Gaming", eventName: "Valorant Premiere League", description: " Inter-College Valorant Showdown", url: "https://unstop.com/events/valorant-premier-league-uphoria-2024-bennett-university-bu-greater-noida-917100?lb=MXeqmNyn" },
   { genre: "Poetry", eventName: "Bardic Battles", description: "Slam Poetry English", url: "https://unstop.com/o/NV8XjR9?lb=MXeqmNyn" },
   { genre: "Poetry", eventName: "Mehfil E Alfaz", description: "Slam Poetry Hindi", url: "https://unstop.com/o/cT7iFoK?lb=MXeqmNyn" },
   { genre: "Creative", eventName: "Ad Arena", description: "Ad Mad", url: "https://unstop.com/o/HC6NZPL?lb=MXeqmNyn" },
