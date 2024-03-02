@@ -11,7 +11,7 @@ interface EventItemProps {
 
 const EventItem: React.FC<EventItemProps> = ({ time, eventName, url }) => {
   return (
-    <div className='group h-full w-full flex gap-10 sm:gap-20 pl-[4vw] items-center justify-center  animate-underline'>
+    <div className='group z-[20] h-full w-full flex gap-10 sm:gap-20 pl-[4vw] items-center justify-center  animate-underline'>
 
       <motion.div variants={slideInFromLeft(0.5)} className='EventTime w-[50%] flex items-center justify-end group-hover:drop-shadow-[0_0px_2px_#F6DFAD] text-[#F6DFAD] text-[3.5vw] sm:text-[2vw] group-hover:sm:text-[2.2vw] group-hover:stroke-current group-hover:underline animate-underline underline-offset-4'>
       <a href={url} target='_blank'>{time}</a>
@@ -86,7 +86,7 @@ const TimelineContent: React.FC = () => {
         {events15.map((event, index) => (
             <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url || "javascript:void(0)"} />
         ))}
-            <div className="goldenmandala z-15 animate-pulse absolute -top-[43%] rotate-180 left-[0%] w-[30%] sm:w-[20%] h-full flex justify-end">
+            <div className="goldenmandala z-0 animate-pulse absolute -top-[43%] rotate-180 left-[0%] w-[30%] sm:w-[20%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} loading="lazy" />
             </div>
           <div className='flex flex-col absolute mt-[30vw] -top-[2.5%] left-[44.5%] sm:top-[0.5%] sm:left-[10%]'>
@@ -101,7 +101,7 @@ const TimelineContent: React.FC = () => {
             <EventItem key={index} time={event.time} eventName={event.eventName} url={event.url || "javascript:void(0)"} />
       ))}
 
-            <div className="goldenmandala z-15 animate-pulse absolute -top-[5%] left-[70%] w-[30%] sm:w-[20%] sm:left-[80%] h-full flex justify-end">
+            <div className="goldenmandala z-0 animate-pulse absolute -top-[5%] left-[70%] w-[30%] sm:w-[20%] sm:left-[80%] h-full flex justify-end">
               <Image src="goldenMandala.svg" alt="Golden Mandala" width={450} height={60} loading="lazy" />
             </div>
           <div className='flex flex-col  absolute mt-[90vw] top-[18%] left-[44.5%] sm:top-[5%] sm:left-[10%]'>
