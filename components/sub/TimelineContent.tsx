@@ -37,7 +37,8 @@ const TimelineContent: React.FC = () => {
     { time: '02:00 PM - 04:00 PM', eventName: 'Reel it in',  url: 'https://unstop.com/o/XobaNth?lb=MXeqmNyn'},
     { time: '02:00 PM - 04:00 PM', eventName: 'Stellar Vision',  url: 'https://unstop.com/o/3wZzcJ5?lb=MXeqmNyn'},
     { time: '12:00 PM - 02:30 PM', eventName: 'Nrityakala',  url: 'https://unstop.com/o/z0SpRwd?lb=MXeqmNyn'},
-    { time: '09:00 PM - 10:00 PM', eventName: 'Prom Night'},
+    { time: '09:00 PM - 10:00 PM', eventName: 'Band Sound Check'},
+    { time: '09:00 PM - 10:00 PM', eventName: 'Faculty Award Night'},
     { time: '10:00 PM - 12:00 AM', eventName: 'Band Night'},
     { time: '12:00 PM - 02:30 PM', eventName: 'Mridang',  url: 'https://unstop.com/o/QRv4qfD?lb=MXeqmNyn'},
     { time: '02:30 PM - 05:00 PM', eventName: 'Chandrakala',  url: 'https://unstop.com/o/aKk7B14?lb=MXeqmNyn'},
@@ -53,13 +54,11 @@ const TimelineContent: React.FC = () => {
     { time: '12:00 PM - 02:00 PM', eventName: 'Mr and Ms Uphoria',  url: 'https://unstop.com/o/gPkwEU8?lb=MXeqmNyn'},
     { time: '1:30 PM - 03:00 PM', eventName: 'Tark Taal',  url: 'https://unstop.com/o/P14tyOL?lb=MXeqmNyn'},
     { time: '3:00 PM - 04:30 PM', eventName: 'Collegiate Quiz',  url: 'https://unstop.com/o/tYoIVfK?lb=MXeqmNyn'},
-    { time: '11:00 AM - 04:00 PM', eventName: 'Showdown Arena (BGMI)', url: 'https://unstop.com/o/N8shUg2?lb=MXeqmNyn'},
     { time: '3:00 PM - 04:00 PM', eventName: 'StandUp Comedy',  url: 'https://unstop.com/o/5JFqXMD?lb=MXeqmNyn'},
     { time: '12:00 PM - 03:00 PM', eventName: 'Pixel Perfect',  url: 'https://unstop.com/o/guNlMvW?lb=MXeqmNyn'},
     { time: '12:00 PM - 06:00 PM', eventName: 'Impromptu Frames',  url: 'https://unstop.com/o/0ySR6Tf?lb=MXeqmNyn'},
     { time: '11:00 AM - 05:00 PM', eventName: 'Rockmania',  url: 'https://unstop.com/o/xL4bGyQ?lb=MXeqmNyn'},
     { time: '5:00 PM - 10:00 PM', eventName: 'Supernova',  url: 'https://unstop.com/o/Q7i8ubo?lb=MXeqmNyn'},
-    { time: '10:00 PM - 12:00 AM', eventName: 'DJ Night'},
     { time: '2:00 PM - 06:00 PM', eventName: 'War of DJs',  url: 'https://unstop.com/o/5n6bhXK?lb=MXeqmNyn'},
   ];
 
@@ -75,7 +74,6 @@ const TimelineContent: React.FC = () => {
     { time: '01:00 PM - 03:00 PM', eventName: 'Mehfil E Alfaz', url: 'https://unstop.com/o/cT7iFoK?lb=MXeqmNyn'},
     { time: '04:00 PM - 06:00 PM', eventName: 'Ad Arena', url: 'https://unstop.com/o/HC6NZPL?lb=MXeqmNyn'},
     { time: '04:00 PM - 06:00 PM', eventName: 'Beat Blitz', url: 'https://unstop.com/o/bD9GVLw?lb=MXeqmNyn'},
-    { time: '09:00 PM - 11:00 PM', eventName: 'Artist Night', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'},
   ];
 
   return (
